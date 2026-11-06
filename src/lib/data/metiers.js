@@ -6,20 +6,20 @@ export const METIERS = [
     persona: "micro",
     heroTitle: "Le logiciel de compta taillé pour les consultants & indépendants BNC",
     tagline: "Pilotez vos honoraires, sécurisez vos déclarations URSSAF et anticipez vos seuils sans perdre une heure de facturation.",
-    seoTitle: "Logiciel Compta pour Consultant & Freelance BNC | Matéo",
-    metaDescription: "Gérez votre activité de consultant en micro-entreprise ou société avec Matéo : livre de recettes conforme, anticipation du seuil de TVA et suivi de trésorerie.",
+    seoTitle: "Logiciel Compta pour Consultant & Freelance BNC | Tito",
+    metaDescription: "Gérez votre activité de consultant en micro-entreprise ou société avec Tito : livre de recettes conforme, anticipation du seuil de TVA et suivi de trésorerie.",
     painPoints: [
       {
         title: "Le cauchemar du seuil de TVA (39 100 €)",
-        desc: "Franchir le seuil sans s'en rendre compte oblige à régulariser des mois de TVA rétroactivement. Matéo vous alerte dès que vous approchez de la limite."
+        desc: "Franchir le seuil sans s'en rendre compte oblige à régulariser des mois de TVA rétroactivement. Tito vous alerte dès que vous approchez de la limite."
       },
       {
         title: "Des honoraires irréguliers",
-        desc: "Entre les missions payées à 30 ou 60 jours, la visibilité est floue. La Météo Trésorerie de Matéo vous montre exactement ce qui reste disponible."
+        desc: "Entre les missions payées à 30 ou 60 jours, la visibilité est floue. La Météo Trésorerie de Tito vous montre exactement ce qui reste disponible."
       },
       {
         title: "La phobie du contrôle fiscal",
-        desc: "Les consultants ont l'obligation légale de tenir un livre des recettes chronologique non modifiable. Matéo l'édite automatiquement à chaque relevé."
+        desc: "Les consultants ont l'obligation légale de tenir un livre des recettes chronologique non modifiable. Tito l'édite automatiquement à chaque relevé."
       }
     ],
     typicalExpenses: [
@@ -36,12 +36,12 @@ export const METIERS = [
     },
     faq: [
       {
-        q: "Comment Matéo catégorise mes factures d'honoraires ?",
-        a: "Dès que vous importez votre relevé bancaire, Matéo reconnaît les virements de vos clients et les affecte directement en recettes professionnelles (compte 706) dans votre livre officiel."
+        q: "Comment Tito catégorise mes factures d'honoraires ?",
+        a: "Dès que vous importez votre relevé bancaire, Tito reconnaît les virements de vos clients et les affecte directement en recettes professionnelles (compte 706) dans votre livre officiel."
       },
       {
         q: "Dois-je déclarer la TVA si je facture des clients à l'étranger ?",
-        a: "Matéo gère les spécificités des prestations intracommunautaires et export (autoliquidation de TVA) avec les mentions légales obligatoires."
+        a: "Tito gère les spécificités des prestations intracommunautaires et export (autoliquidation de TVA) avec les mentions légales obligatoires."
       }
     ]
   },
@@ -52,20 +52,20 @@ export const METIERS = [
     persona: "micro",
     heroTitle: "La compta simple pour artisans : maçons, électriciens, peintres et plombiers",
     tagline: "Moins de temps le soir sur vos devis et factures, plus de temps sur vos chantiers.",
-    seoTitle: "Comptabilité Artisan du Bâtiment en Micro-entreprise | Matéo",
+    seoTitle: "Comptabilité Artisan du Bâtiment en Micro-entreprise | Tito",
     metaDescription: "Logiciel de gestion et comptabilité pour artisans du bâtiment. Enregistrement automatique des encaissements chantiers, suivi des achats matériaux et livre officiel.",
     painPoints: [
       {
         title: "Achats fréquents de matériaux",
-        desc: "Entre Point.P, Rexel ou Leroy Merlin, les factures s'accumulent dans la camionnette. Matéo regroupe et pointe chaque dépense automatiquement."
+        desc: "Entre Point.P, Rexel ou Leroy Merlin, les factures s'accumulent dans la camionnette. Tito regroupe et pointe chaque dépense automatiquement."
       },
       {
         title: "Acomptes et soldes de chantiers",
-        desc: "Suivre qui a réglé l'acompte de 30 % et qui doit encore le solde devient un jeu d'enfant grâce au suivi des règlements Matéo."
+        desc: "Suivre qui a réglé l'acompte de 30 % et qui doit encore le solde devient un jeu d'enfant grâce au suivi des règlements Tito."
       },
       {
         title: "TVA à taux multiples (10 %, 5,5 %, 20 %)",
-        desc: "Les travaux de rénovation et d'amélioration énergétique exigent des taux spécifiques. Matéo garde la traçabilité claire de vos ventilations."
+        desc: "Les travaux de rénovation et d'amélioration énergétique exigent des taux spécifiques. Tito garde la traçabilité claire de vos ventilations."
       }
     ],
     typicalExpenses: [
@@ -83,7 +83,7 @@ export const METIERS = [
     faq: [
       {
         q: "Puis-je séparer la fourniture de matériaux et la main d'œuvre ?",
-        a: "Oui, Matéo permet de scinder vos encaissements mixtes pour appliquer exactement le bon taux de cotisation URSSAF sur chaque part."
+        a: "Oui, Tito permet de scinder vos encaissements mixtes pour appliquer exactement le bon taux de cotisation URSSAF sur chaque part."
       },
       {
         q: "Comment archiver les factures de matériaux en cas de contrôle ?",
@@ -98,16 +98,16 @@ export const METIERS = [
     persona: "micro",
     heroTitle: "Gérez vos séances, mariages et droits d'auteur sans stress comptable",
     tagline: "Un outil fluide et visuel pour suivre vos acomptes shooting, vos ventes de tirages et vos investissements matériel.",
-    seoTitle: "Logiciel de Comptabilité pour Photographe et Vidéaste | Matéo",
-    metaDescription: "Simplifiez la comptabilité de votre activité photo et vidéo avec Matéo : suivi des acomptes mariages, facturation des cessions de droits et livre des recettes.",
+    seoTitle: "Logiciel de Comptabilité pour Photographe et Vidéaste | Tito",
+    metaDescription: "Simplifiez la comptabilité de votre activité photo et vidéo avec Tito : suivi des acomptes mariages, facturation des cessions de droits et livre des recettes.",
     painPoints: [
       {
         title: "Gestion des acomptes à plusieurs mois d'intervalle",
-        desc: "Un mariage réservé en janvier pour août avec solde en septembre ? Matéo fait le lien chronologique entre vos encaissements et vos contrats."
+        desc: "Un mariage réservé en janvier pour août avec solde en septembre ? Tito fait le lien chronologique entre vos encaissements et vos contrats."
       },
       {
         title: "Distinction prestations et droits d'auteur",
-        desc: "Prestation de prise de vue d'un côté, cession de droits patrimoniaux de l'autre : Matéo classe chaque flux sur le bon compte de recettes."
+        desc: "Prestation de prise de vue d'un côté, cession de droits patrimoniaux de l'autre : Tito classe chaque flux sur le bon compte de recettes."
       },
       {
         title: "Renouvellement lourd du parc matériel",
@@ -129,11 +129,11 @@ export const METIERS = [
     faq: [
       {
         q: "Puis-je gérer les paiements en plusieurs fois pour les mariages ?",
-        a: "Absolument. Matéo associe plusieurs virements échelonnés à un même client pour un suivi parfait du reste à recouvrer."
+        a: "Absolument. Tito associe plusieurs virements échelonnés à un même client pour un suivi parfait du reste à recouvrer."
       },
       {
-        q: "Matéo est-il adapté aux photographes assujettis à la TVA ?",
-        a: "Oui, Matéo sépare instantanément le HT de la TVA collectée pour que votre déclaration trimestrielle soit remplie en 2 minutes."
+        q: "Tito est-il adapté aux photographes assujettis à la TVA ?",
+        a: "Oui, Tito sépare instantanément le HT de la TVA collectée pour que votre déclaration trimestrielle soit remplie en 2 minutes."
       }
     ]
   },
@@ -144,12 +144,12 @@ export const METIERS = [
     persona: "micro",
     heroTitle: "La compta limpide pour graphistes, directeurs artistiques et UI/UX designers",
     tagline: "Fini l'angoisse des déclarations administratives. Concentrez-vous sur vos créations visuelles.",
-    seoTitle: "Comptabilité Graphiste & Webdesigner Freelance | Matéo",
+    seoTitle: "Comptabilité Graphiste & Webdesigner Freelance | Tito",
     metaDescription: "Logiciel de comptabilité adapté aux graphistes indépendants : catégorisation automatique des abonnements créatifs, suivi des virements clients et livre officiel.",
     painPoints: [
       {
         title: "Multiplication des petits abonnements SaaS",
-        desc: "Figma, Adobe, Fontstand, Envato, Canva... Matéo regroupe et catégorise automatiquement vos charges numériques récurrentes."
+        desc: "Figma, Adobe, Fontstand, Envato, Canva... Tito regroupe et catégorise automatiquement vos charges numériques récurrentes."
       },
       {
         title: "Facturation mixte (Création + Cession de droits)",
@@ -157,7 +157,7 @@ export const METIERS = [
       },
       {
         title: "Décalages de trésorerie entre deux projets",
-        desc: "La météo de trésorerie Matéo vous indique en un coup d'œil votre coussin de sécurité pour traverser les périodes creuses sereinement."
+        desc: "La météo de trésorerie Tito vous indique en un coup d'œil votre coussin de sécurité pour traverser les périodes creuses sereinement."
       }
     ],
     typicalExpenses: [
@@ -175,11 +175,11 @@ export const METIERS = [
     faq: [
       {
         q: "Puis-je suivre mes factures clients réglées par virement et Stripe ?",
-        a: "Oui, Matéo intègre les exports de vos comptes bancaires pro et passerelles de paiement avec réconciliation instantanée."
+        a: "Oui, Tito intègre les exports de vos comptes bancaires pro et passerelles de paiement avec réconciliation instantanée."
       },
       {
         q: "Le livre des recettes est-il accepté lors d'un contrôle fiscal ?",
-        a: "Oui, le livre des recettes généré par Matéo respecte rigoureusement l'article R. 123-205 du Code de commerce et les directives de la DGFiP."
+        a: "Oui, le livre des recettes généré par Tito respecte rigoureusement l'article R. 123-205 du Code de commerce et les directives de la DGFiP."
       }
     ]
   },
@@ -190,16 +190,16 @@ export const METIERS = [
     persona: "micro",
     heroTitle: "Gérez vos séances et sessions de formation en toute simplicité",
     tagline: "Suivi des règlements individuels, attestations et obligations comptables sans perte de temps.",
-    seoTitle: "Logiciel Compta pour Coach, Formateur et Thérapeute | Matéo",
+    seoTitle: "Logiciel Compta pour Coach, Formateur et Thérapeute | Tito",
     metaDescription: "Solution de comptabilité simplifiée pour coachs, formateurs indépendants et praticiens bien-être. Livre de recettes conforme, suivi des règlements et météo financière.",
     painPoints: [
       {
         title: "Multiplication des petits encaissements clients",
-        desc: "Des dizaines de séances par mois réglées par virement, chèque ou carte bancaire : Matéo pointe chaque règlement sans oubli."
+        desc: "Des dizaines de séances par mois réglées par virement, chèque ou carte bancaire : Tito pointe chaque règlement sans oubli."
       },
       {
         title: "L'exonération de TVA des organismes de formation",
-        desc: "Si vous bénéficiez de l'attestation d'exonération de TVA délivrée par la DREETS, Matéo sécurise vos mentions et vos seuils."
+        desc: "Si vous bénéficiez de l'attestation d'exonération de TVA délivrée par la DREETS, Tito sécurise vos mentions et vos seuils."
       },
       {
         title: "Anticipation des cotisations URSSAF",
@@ -221,11 +221,11 @@ export const METIERS = [
     faq: [
       {
         q: "Comment gérer les règlements en espèces ou chèques de mes patients/clients ?",
-        a: "Matéo permet d'enregistrer manuellement vos règlements physiques en quelques secondes pour qu'ils figurent chronologiquement dans votre livre officiel."
+        a: "Tito permet d'enregistrer manuellement vos règlements physiques en quelques secondes pour qu'ils figurent chronologiquement dans votre livre officiel."
       },
       {
         q: "Puis-je exporter un récapitulatif pour mon bilan pédagogique et financier (BPF) ?",
-        a: "Oui, Matéo génère un récapitulatif précis de vos volumes d'encaissements par type d'action de formation."
+        a: "Oui, Tito génère un récapitulatif précis de vos volumes d'encaissements par type d'action de formation."
       }
     ]
   },
@@ -236,20 +236,20 @@ export const METIERS = [
     persona: "asso",
     heroTitle: "La trésorerie sans casse-tête pour les trésoriers de clubs de sport",
     tagline: "Cotisations adhérents, buvettes, licences et tournois : gardez des comptes impeccables pour votre prochaine assemblée générale.",
-    seoTitle: "Gestion Comptable et Adhésions Club Sportif Association | Matéo",
+    seoTitle: "Gestion Comptable et Adhésions Club Sportif Association | Tito",
     metaDescription: "Logiciel de gestion financière pour clubs de sport associatifs : encaissement des licences, suivi des adhésions, buvette, et rapport financier pour l'AG.",
     painPoints: [
       {
         title: "Le rush des rentrées de septembre",
-        desc: "Des centaines de règlements de licences qui arrivent par virement, Pass'Sport, chèques ou espèces : Matéo pointe tout sans double saisie."
+        desc: "Des centaines de règlements de licences qui arrivent par virement, Pass'Sport, chèques ou espèces : Tito pointe tout sans double saisie."
       },
       {
         title: "La gestion des paiements fractionnés (3x sans frais)",
-        desc: "Les familles paient souvent en plusieurs mensualités. Matéo suit le reste dû de chaque licencié avec un état des impayés en direct."
+        desc: "Les familles paient souvent en plusieurs mensualités. Tito suit le reste dû de chaque licencié avec un état des impayés en direct."
       },
       {
         title: "Le rapport financier de l'Assemblée Générale",
-        desc: "Présenter des comptes clairs et rassurants aux adhérents et à la mairie sans y passer ses nuits : Matéo édite votre bilan d'exercice instantanément."
+        desc: "Présenter des comptes clairs et rassurants aux adhérents et à la mairie sans y passer ses nuits : Tito édite votre bilan d'exercice instantanément."
       }
     ],
     typicalExpenses: [
@@ -267,11 +267,11 @@ export const METIERS = [
     faq: [
       {
         q: "Comment traiter les aides de l'État comme le Pass'Sport ?",
-        a: "Matéo vous permet d'enregistrer la part payée par la famille et la part compensée par le dispositif public avec un lettrage parfait."
+        a: "Tito vous permet d'enregistrer la part payée par la famille et la part compensée par le dispositif public avec un lettrage parfait."
       },
       {
         q: "Puis-je délivrer une attestation de paiement pour le comité d'entreprise des parents ?",
-        a: "Oui, Matéo génère automatiquement des attestations de paiement nominatives pour chaque licencié en 1 clic."
+        a: "Oui, Tito génère automatiquement des attestations de paiement nominatives pour chaque licencié en 1 clic."
       }
     ]
   }
@@ -289,12 +289,12 @@ METIERS.push(
     persona: "liberal",
     heroTitle: "La compta simple pour infirmiers et infirmières libérales",
     tagline: "Tournées, télétransmission CPAM, rétrocessions de remplacement et déduction kilométrique : gagnez du temps sur votre administratif.",
-    seoTitle: "Logiciel Comptabilité Infirmière Libérale (IDEL) BNC | Matéo",
+    seoTitle: "Logiciel Comptabilité Infirmière Libérale (IDEL) BNC | Tito",
     metaDescription: "Solution comptable pour IDEL et infirmiers libéraux : rapprochement des virements CPAM, gestion des remplacements et préparation déclaration 2035.",
     painPoints: [
       {
         title: "La jungle des virements de télétransmission",
-        desc: "Dizaines de petits virements CPAM et mutuelles chaque semaine : Matéo les rapproche automatiquement avec vos bordereaux de télétransmission."
+        desc: "Dizaines de petits virements CPAM et mutuelles chaque semaine : Tito les rapproche automatiquement avec vos bordereaux de télétransmission."
       },
       {
         title: "Les rétrocessions aux remplaçants",
@@ -302,7 +302,7 @@ METIERS.push(
       },
       {
         title: "La lourdeur des frais de tournée (véhicule)",
-        desc: "Barème kilométrique officiel ou frais réels ? Matéo calcule l'option la plus avantageuse pour vos impôts."
+        desc: "Barème kilométrique officiel ou frais réels ? Tito calcule l'option la plus avantageuse pour vos impôts."
       }
     ],
     typicalExpenses: [
@@ -324,7 +324,7 @@ METIERS.push(
       },
       {
         q: "Comment déclarer les rétrocessions versées à mon remplaçant ?",
-        a: "Matéo les déduit directement de vos recettes brutes sur la ligne dédiée des rétrocessions d'honoraires pour ne cotiser que sur votre gain net."
+        a: "Tito les déduit directement de vos recettes brutes sur la ligne dédiée des rétrocessions d'honoraires pour ne cotiser que sur votre gain net."
       }
     ]
   },
@@ -335,20 +335,20 @@ METIERS.push(
     persona: "liberal",
     heroTitle: "Pilotez la comptabilité de votre cabinet de kinésithérapie",
     tagline: "Rétrocessions collaborateurs, tiers-payant, investissements plateau technique et caisse CARPIMKO : vos comptes au clair.",
-    seoTitle: "Comptabilité Kinésithérapeute en Cabinet & Domicile | Matéo",
+    seoTitle: "Comptabilité Kinésithérapeute en Cabinet & Domicile | Tito",
     metaDescription: "Logiciel de gestion et comptabilité pour kinésithérapeutes : suivi des rétrocessions cabinet, télétransmission CPAM et optimisation des frais professionnels.",
     painPoints: [
       {
         title: "Les contrats de collaboration & rétrocessions",
-        desc: "Que vous soyez titulaire ou collaborateur, Matéo suit chaque mois les pourcentages convenus et édite les justificatifs comptables."
+        desc: "Que vous soyez titulaire ou collaborateur, Tito suit chaque mois les pourcentages convenus et édite les justificatifs comptables."
       },
       {
         title: "Investissement dans le plateau technique",
-        desc: "Tables électriques, ondes de choc, cryothérapie : Matéo suit vos échéances de leasing et vos plans d'amortissement matériel."
+        desc: "Tables électriques, ondes de choc, cryothérapie : Tito suit vos échéances de leasing et vos plans d'amortissement matériel."
       },
       {
         title: "Anticipation des régularisations CARPIMKO",
-        desc: "Évitez le choc des régularisations de cotisations à N+2 grâce aux prévisions de trésorerie Matéo."
+        desc: "Évitez le choc des régularisations de cotisations à N+2 grâce aux prévisions de trésorerie Tito."
       }
     ],
     typicalExpenses: [
@@ -366,11 +366,11 @@ METIERS.push(
     faq: [
       {
         q: "Les activités de bien-être ou ostéopathie sans ordonnance sont-elles exonérées de TVA ?",
-        a: "Attention : seuls les actes à visée thérapeutique inscrits à la NGAP sont exonérés. Matéo vous permet de séparer les actes conventionnés des actes hors nomenclature."
+        a: "Attention : seuls les actes à visée thérapeutique inscrits à la NGAP sont exonérés. Tito vous permet de séparer les actes conventionnés des actes hors nomenclature."
       },
       {
         q: "Comment sont gérées les redevances de collaboration ?",
-        a: "Pour le titulaire, la redevance est une recette accessoire. Pour le collaborateur, c'est une charge déductible. Matéo applique automatiquement le bon traitement selon votre statut."
+        a: "Pour le titulaire, la redevance est une recette accessoire. Pour le collaborateur, c'est une charge déductible. Tito applique automatiquement le bon traitement selon votre statut."
       }
     ]
   },
@@ -381,12 +381,12 @@ METIERS.push(
     persona: "liberal",
     heroTitle: "La compta conforme aux règles ordinales pour avocats",
     tagline: "Honoraires de résultat, provisions, rétrocessions de collaboration, TVA et caisse CNBF : une rigueur sans faille.",
-    seoTitle: "Logiciel de Comptabilité pour Avocat & Collaborateur Libéral | Matéo",
+    seoTitle: "Logiciel de Comptabilité pour Avocat & Collaborateur Libéral | Tito",
     metaDescription: "Gérez votre cabinet d'avocat ou votre exercice individuel : suivi des honoraires CARPA, rétrocessions de collaboration, TVA et déclaration 2035.",
     painPoints: [
       {
         title: "Le suivi de la TVA à 20 % sur encaissements",
-        desc: "Contrairement au médical, les avocats collectent la TVA. Matéo calcule la TVA exacte sur vos encaissements réels et non sur facturation."
+        desc: "Contrairement au médical, les avocats collectent la TVA. Tito calcule la TVA exacte sur vos encaissements réels et non sur facturation."
       },
       {
         title: "Les maniements de fonds et comptes CARPA",
@@ -412,7 +412,7 @@ METIERS.push(
     faq: [
       {
         q: "Comment comptabiliser les provisions sur honoraires versées par un client ?",
-        a: "En BNC, toute somme encaissée constitue une recette de l'exercice au jour du paiement. Matéo l'intègre immédiatement dans votre livre de recettes."
+        a: "En BNC, toute somme encaissée constitue une recette de l'exercice au jour du paiement. Tito l'intègre immédiatement dans votre livre de recettes."
       },
       {
         q: "Puis-je déduire l'achat de ma robe d'avocat et son entretien ?",

@@ -11,9 +11,9 @@
 </script>
 
 <svelte:head>
-  <title>Tous nos guides comptables par Métier & Activité | Matéo</title>
+  <title>Tous nos guides comptables par Métier & Activité | Tito</title>
   <meta name="description" content="Explorez nos guides pratiques et solutions comptables adaptées à votre profession : consultants, artisans, photographes, graphistes, coachs et associations." />
-  <link rel="canonical" href="https://mateo.fr/metiers" />
+  <link rel="canonical" href="https://tito.fr/metiers" />
 </svelte:head>
 
 <section class="pseo-hero">

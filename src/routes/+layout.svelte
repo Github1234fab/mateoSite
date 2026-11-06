@@ -14,16 +14,16 @@
 </script>
 
 <svelte:head>
-  <title>Matéo — Le logiciel de gestion et compta pour Indépendants, Libéraux, TPE et Associations</title>
-  <meta name="description" content="Matéo simplifie la comptabilité des micro-entreprises, professions libérales et médicales, TPE et associations. Livre de recettes conforme, suivi des adhésions, météo de trésorerie et catégorisation intelligente." />
+  <title>Tito — Le logiciel de gestion et compta pour Indépendants, Libéraux, TPE et Associations</title>
+  <meta name="description" content="Tito simplifie la comptabilité des micro-entreprises, professions libérales et médicales, TPE et associations. Livre de recettes conforme, suivi des adhésions, météo de trésorerie et catégorisation intelligente." />
 </svelte:head>
 
 <!-- HEADER GLOBAL -->
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="brand-link" aria-label="Retour à l'accueil Matéo">
-      <img src="/logo-mateo.png" alt="Logo Matéo" class="brand-logo" />
-      <span class="brand-name">Mat<span class="brand-name-accent">é</span>o</span>
+    <a href="/" class="brand-link" aria-label="Retour à l'accueil Tito">
+      <img src="/logo-tito.png" alt="Logo Tito" class="brand-logo" />
+      <span class="brand-name">Ti<span class="brand-name-accent">t</span>o</span>
     </a>
 
     <nav class="nav-links" aria-label="Navigation principale">
@@ -92,7 +92,7 @@
     </nav>
 
     <div class="header-actions">
-      <a href="https://app.mateo.fr" class="btn btn-ghost" target="_blank" rel="noopener">Connexion</a>
+      <a href="https://app.tito.fr" class="btn btn-ghost" target="_blank" rel="noopener">Connexion</a>
       <a href="/#essai-gratuit" class="btn btn-primary btn-header-cta">Essayer gratuitement</a>
     </div>
   </div>
@@ -109,8 +109,8 @@
     <div class="footer-grid">
       <div>
         <a href="/" class="brand-link footer-brand">
-          <!-- <img src="/logo-mateo.png" alt="Logo Matéo" class="brand-logo" /> -->
-          <span class="brand-name footer-brand-name">Mat<span class="brand-name-accent">é</span>o</span>
+          <!-- <img src="/logo-tito.png" alt="Logo Tito" class="brand-logo" /> -->
+          <span class="brand-name footer-brand-name">Ti<span class="brand-name-accent">t</span>o</span>
         </a>
         <p class="footer-desc">
           Le copilote de gestion financière sans jargon pour indépendants, professions libérales, artisans, TPE et associations Loi 1901.
@@ -140,7 +140,7 @@
       </div>
 
       <div>
-        <h3 class="footer-col-title">Matéo</h3>
+        <h3 class="footer-col-title">Tito</h3>
         <ul class="footer-links">
           <li><a href="/a-propos" class="footer-link">Notre vision</a></li>
           <li><a href="/tarifs" class="footer-link">Tarifs transparents</a></li>
@@ -151,7 +151,7 @@
     </div>
 
     <div class="footer-bottom">
-      <div>© 2026 Matéo. Tous droits réservés. Conçu en France pour les entrepreneurs, libéraux et bénévoles.</div>
+      <div>© 2026 Tito. Tous droits réservés. Conçu en France pour les entrepreneurs, libéraux et bénévoles.</div>
       <div class="footer-legal-links">
         <a href="/mentions-legales" class="footer-link">Mentions légales</a>
         <a href="/confidentialite" class="footer-link">Politique de confidentialité</a>

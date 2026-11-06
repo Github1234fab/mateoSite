@@ -61,9 +61,9 @@
 </script>
 
 <svelte:head>
-  <title>Matéo — La gestion sans jargon, pour ceux qui travaillent avec passion</title>
-  <meta name="description" content="Matéo est le logiciel de gestion financière ultra-simple qui prépare tout pour votre expert-comptable et divise vos frais de tenue de comptes annuelle." />
-  <link rel="canonical" href="https://mateo.fr" />
+  <title>Tito — La gestion, sans jargon</title>
+  <meta name="description" content="Tito est le logiciel de gestion financière ultra-simple qui prépare tout pour votre expert-comptable et divise vos frais de tenue de comptes annuelle." />
+  <link rel="canonical" href="https://tito.fr" />
 </svelte:head>
 
 <!-- HERO SUR FOND BLEU IMPACTANT -->
@@ -74,16 +74,16 @@
     </div>
 
     <h1 class="hero-title hero-title-blue">
-      La gestion sans jargon, pour ceux qui <span class="hero-highlight">travaillent avec passion.</span>
+      La gestion, <span class="hero-highlight">sans jargon</span>
     </h1>
 
     <p class="hero-subtitle-blue">
-      Un logiciel ultra-simple, lisible et pédagogique. Matéo ne remplace pas un expert-comptable : il prépare tout pour lui et réduit drastiquement vos frais de comptabilité.
+      Un logiciel ultra-simple, lisible et pédagogique. <br> Importez simplement vos relevés bancaires et Tito fera tout le boulot!
     </p>
 
     <div class="hero-cta-group">
-      <a href="#essai-gratuit" class="btn btn-primary btn-lg">Essayer Matéo gratuitement</a>
-      <a href="#solutions" class="btn btn-outline-white btn-lg">Voir selon votre activité &darr;</a>
+      <a href="#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
+      <a href="#solutions" class="btn btn-outline-white btn-lg">Consulter vos obligations comptables</a>
     </div>
 
     <p class="hero-guarantee-note">
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <!-- PREUVE VISUELLE : MOCKUP FLAT DE L'INTERFACE MATÉO -->
+    <!-- PREUVE VISUELLE : MOCKUP FLAT DE L'INTERFACE TITO -->
     <div class="hero-mockup-wrapper">
       <div class="hero-mockup-frame">
         <!-- Barre de fenêtre Mac -->
@@ -115,7 +115,7 @@
             <span class="mockup-dot mockup-dot-yellow"></span>
             <span class="mockup-dot mockup-dot-green"></span>
           </div>
-          <div class="mockup-window-title">Matéo — Pilotage Financier & Pointage Bancaire</div>
+          <div class="mockup-window-title">Tito — Pilotage Financier & Pointage Bancaire</div>
           <div class="mockup-window-status">
             <span class="mockup-status-pulse"></span>
             <span>Flux bancaire synchronisé</span>
@@ -206,7 +206,7 @@
         <!-- Footer du mockup -->
         <div class="mockup-footer-bar">
           <div>
-            ⚡ <strong>Pointage instantané</strong> : Glissez votre relevé bancaire, Matéo ventile tout en français courant.
+            ⚡ <strong>Pointage instantané</strong> : Glissez votre relevé bancaire, Tito ventile tout en français courant.
           </div>
           <div class="mockup-footer-highlight">
             <span>Dossier annuel prêt pour votre expert</span>
@@ -226,7 +226,7 @@
         <span class="badge badge-pill">Le bon sens financier</span>
         <h2 class="expert-pitch-title">Ne payez plus votre comptable pour de la simple saisie</h2>
         <p class="expert-pitch-desc">
-          Passer des heures à saisir des lignes de relevé bancaire à 150 € ou 250 € par mois est une aberration. Matéo classe vos flux bancaires automatiquement chaque semaine.
+          Passer des heures à saisir des lignes de relevé bancaire à 150 € ou 250 € par mois est une aberration. Tito classe vos flux bancaires automatiquement chaque semaine.
         </p>
         <div class="expert-quote-highlight">
           « Vous ne payez l'expert-comptable qu'en une seule fois pour son vrai conseil et votre bilan officiel. Plus besoin de forfait mensuel coûteux pour la simple tenue de vos comptes. »
@@ -238,7 +238,7 @@
           <div class="benefit-check-icon">✓</div>
           <div>
             <div class="benefit-text-title">3 minutes par semaine</div>
-            <div class="benefit-text-desc">Vous glissez votre relevé de compte, Matéo pointe et ventile chaque recette et dépense.</div>
+            <div class="benefit-text-desc">Vous glissez votre relevé de compte, Tito pointe et ventile chaque recette et dépense.</div>
           </div>
         </div>
 
@@ -266,10 +266,10 @@
 <section class="section-pillars-blue" id="solutions">
   <div class="container">
     <div class="section-header">
-      <span class="badge badge-beta">Écosystème Matéo</span>
+      <span class="badge badge-beta">Écosystème Tito</span>
       <h2 class="section-pillars-title">Un logiciel taillé pour chaque métier et chaque statut</h2>
       <p class="section-pillars-sub">
-        Fini les interfaces fourre-tout. Matéo active uniquement les fonctions et règles fiscales qui correspondent à votre profil.
+        Tito connait toutes les obligations de votre activité. <br> Il va gérer vos flux, organiser votre comptabilité et préparer pour vous toutes les pièces nécessaires à vos déclarations.
       </p>
     </div>
 
@@ -306,10 +306,10 @@
 <section class="section" id="metiers-section">
   <div class="container">
     <div class="section-header">
-      <span class="badge badge-pill">Guides dédiés par profession</span>
-      <h2 class="section-title">Trouvez votre guide métier personnalisé</h2>
+      <span class="badge badge-pill">Zero stress avec Tito</span>
+      <h2 class="section-title-center">Vous êtes unique. Tito aussi.</h2>
       <p class="section-subtitle">
-        Seuils URSSAF, exonérations de TVA, charges déductibles typiques : découvrez comment Matéo s'adapte à votre quotidien.
+        Seuils URSSAF, exonérations de TVA, charges déductibles typiques : Tito sait déjà tout sur votre activité et comment la gérer.
       </p>
     </div>
 
@@ -339,7 +339,7 @@
       <span class="trial-custom-badge">ESSAI SANS ENGAGEMENT</span>
 
       <h2 class="trial-custom-title">
-        Découvrez la gestion sans jargon avec Matéo<br />
+        Découvrez la gestion sans jargon avec Tito<br />
         Bénéficiez de 30 jours d’essai gratuit, sans carte bancaire.
       </h2>
 
@@ -359,7 +359,7 @@
           </div>
           <div class="trial-custom-col-title">Accès immédiat</div>
           <p class="trial-custom-col-desc">
-            Commencez dès maintenant. Vos données sont prêtes à être importées sans effort.
+            Commencez dès maintenant. <br><br>Importez vos releves bancaires en CSV et laissez Tito faire le reste!
           </p>
         </div>
 
@@ -375,7 +375,7 @@
           </div>
           <div class="trial-custom-col-title">Accompagnement bienveillant</div>
           <p class="trial-custom-col-desc">
-            Des petits conseils et un support humain pour vous guider, sans vous harceler.
+           Des tutos partout dans Tito, pour une prise en main extrèmement simple. <br><br> Quand on a le savoir et que l'on désire transmettre, on ne complexifie jamais rien. 
           </p>
         </div>
 
@@ -391,14 +391,14 @@
           </div>
           <div class="trial-custom-col-title">Liberté totale</div>
           <p class="trial-custom-col-desc">
-            Zéro prélèvement surprise. C'est vous qui décidez de la suite, tout simplement.
+            Zéro prélèvement surprise. Vous testez Tito pendant 30 jours. <br><br>  Vous faites votre compta, vous générez vos pièces comptables, etc.  <br><br>  Ensuite vous partez ou vous restez, tout simplement.
           </p>
         </div>
       </div>
 
       <div class="trial-custom-action-wrap">
-        <a href="https://app.mateo.fr" class="trial-custom-cta-btn" target="_blank" rel="noopener">
-          Créer mon compte et essayer Matéo &rarr;
+        <a href="https://app.tito.fr" class="trial-custom-cta-btn" target="_blank" rel="noopener">
+          Créer mon compte et essayer Tito &rarr;
         </a>
       </div>
 

@@ -4,8 +4,8 @@ export const SOLUTIONS = {
     badge: "Auto-entrepreneurs & Indépendants",
     title: "La comptabilité sans stress pour les micro-entrepreneurs",
     subtitle: "Livre des recettes conforme DGFiP, suivi du chiffre d'affaires en direct et alertes intelligentes sur vos seuils de franchise de TVA.",
-    seoTitle: "Logiciel de Comptabilité Micro-Entreprise & Auto-Entrepreneur | Matéo",
-    metaDescription: "Gérez votre micro-entreprise en toute conformité avec Matéo : livre de recettes chronologique, suivi des plafonds de TVA et catégorisation des relevés bancaires.",
+    seoTitle: "Logiciel de Comptabilité Micro-Entreprise & Auto-Entrepreneur | Tito",
+    metaDescription: "Gérez votre micro-entreprise en toute conformité avec Tito : livre de recettes chronologique, suivi des plafonds de TVA et catégorisation des relevés bancaires.",
     keyBenefits: [
       {
         title: "Livre des recettes 100% conforme",
@@ -17,7 +17,7 @@ export const SOLUTIONS = {
       },
       {
         title: "Calcul du net disponible estimé",
-        desc: "Matéo retranche automatiquement vos cotisations sociales URSSAF et votre impôt libératoire pour vous afficher votre vrai pouvoir d'achat."
+        desc: "Tito retranche automatiquement vos cotisations sociales URSSAF et votre impôt libératoire pour vous afficher votre vrai pouvoir d'achat."
       }
     ],
     features: [
@@ -32,16 +32,16 @@ export const SOLUTIONS = {
     badge: "Professions Libérales & Santé",
     title: "La gestion comptable pensée pour les professions libérales et de santé",
     subtitle: "Kinés, infirmiers, médecins, avocats ou psychologues : suivez vos honoraires, vos rétrocessions et vos cotisations de caisse (CARPIMKO, CARMF, CNBF) en toute sérénité.",
-    seoTitle: "Logiciel de Comptabilité Profession Libérale & Santé (BNC / 2035) | Matéo",
+    seoTitle: "Logiciel de Comptabilité Profession Libérale & Santé (BNC / 2035) | Tito",
     metaDescription: "Solution comptable pour professions libérales médicales, paramédicales et juridiques : suivi des honoraires CPAM, rétrocessions et préparation déclaration 2035.",
     keyBenefits: [
       {
         title: "Rapprochement des flux CPAM & Tiers-Payant",
-        desc: "Matéo regroupe et catégorise automatiquement les virements de télétransmission de la Sécurité sociale et des mutuelles sans double pointage."
+        desc: "Tito regroupe et catégorise automatiquement les virements de télétransmission de la Sécurité sociale et des mutuelles sans double pointage."
       },
       {
         title: "Gestion des rétrocessions d'honoraires",
-        desc: "Titulaire ou remplaçant ? Matéo isole et ventile les rétrocessions versées ou encaissées pour une déductibilité fiscale irréprochable."
+        desc: "Titulaire ou remplaçant ? Tito isole et ventile les rétrocessions versées ou encaissées pour une déductibilité fiscale irréprochable."
       },
       {
         title: "Sécurisation de l'exonération de TVA",
@@ -60,8 +60,8 @@ export const SOLUTIONS = {
     badge: "Associations Loi 1901",
     title: "Le copilote financier des présidents et trésoriers associatifs",
     subtitle: "Fini les fichiers Excel partagés et les classeurs égarés. Suivez vos adhésions, encaissez les cotisations et éditez vos reçus fiscaux CERFA en un clic.",
-    seoTitle: "Logiciel de Comptabilité et Gestion pour Association Loi 1901 | Matéo",
-    metaDescription: "Simplifiez la trésorerie de votre association avec Matéo : encaissement des cotisations, registre des donateurs, reçus fiscaux CERFA et rapport d'Assemblée Générale.",
+    seoTitle: "Logiciel de Comptabilité et Gestion pour Association Loi 1901 | Tito",
+    metaDescription: "Simplifiez la trésorerie de votre association avec Tito : encaissement des cotisations, registre des donateurs, reçus fiscaux CERFA et rapport d'Assemblée Générale.",
     keyBenefits: [
       {
         title: "Reçus fiscaux CERFA automatiques",
@@ -88,7 +88,7 @@ export const SOLUTIONS = {
     badge: "Artisans, Commerçants & TPE",
     title: "Le tableau de bord de trésorerie sans jargon pour dirigeants de TPE",
     subtitle: "Anticipez les fins de mois difficiles avec la Météo Trésorerie, surveillez vos échéances fournisseurs et préparez les bilans de votre expert-comptable.",
-    seoTitle: "Pilotage de Trésorerie et Pré-comptabilité pour TPE et Artisans | Matéo",
+    seoTitle: "Pilotage de Trésorerie et Pré-comptabilité pour TPE et Artisans | Tito",
     metaDescription: "Gardez le contrôle sur les finances de votre petite entreprise : météo de trésorerie, radar des échéances, détection des pièces manquantes et exports pré-comptables.",
     keyBenefits: [
       {
@@ -101,7 +101,7 @@ export const SOLUTIONS = {
       },
       {
         title: "Chasse aux pièces manquantes",
-        desc: "Matéo détecte automatiquement les débits bancaires qui n'ont pas encore de facture rattachée pour que votre expert-comptable soit ravi."
+        desc: "Tito détecte automatiquement les débits bancaires qui n'ont pas encore de facture rattachée pour que votre expert-comptable soit ravi."
       }
     ],
     features: [

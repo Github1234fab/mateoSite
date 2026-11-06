@@ -7,11 +7,11 @@
 <svelte:head>
   <title>{solution.seoTitle}</title>
   <meta name="description" content={solution.metaDescription} />
-  <link rel="canonical" href="https://mateo.fr/solutions/{solution.slug}" />
+  <link rel="canonical" href="https://tito.fr/solutions/{solution.slug}" />
   <meta property="og:title" content={solution.seoTitle} />
   <meta property="og:description" content={solution.metaDescription} />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://mateo.fr/solutions/{solution.slug}" />
+  <meta property="og:url" content="https://tito.fr/solutions/{solution.slug}" />
 </svelte:head>
 
 <!-- HERO SOLUTION -->
@@ -38,7 +38,7 @@
     </p>
 
     <div class="pseo-action-row">
-      <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Matéo gratuitement</a>
+      <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
       <a href="#benefices" class="btn btn-secondary btn-lg">Découvrir les fonctionnalités</a>
     </div>
   </div>
@@ -49,7 +49,7 @@
   <div class="container">
     <div class="section-header">
       <span class="badge badge-beta">Avantages Clés</span>
-      <h2 class="section-title">Ce que Matéo change dans votre quotidien</h2>
+      <h2 class="section-title">Ce que Tito change dans votre quotidien</h2>
       <p class="section-subtitle">
         Des outils créés pour supprimer la charge mentale administrative.
       </p>
@@ -124,12 +124,12 @@
 <section class="section section-alt">
   <div class="container">
     <div class="cta-banner">
-      <h2>Prêt à passer sur Matéo pour votre structure ?</h2>
+      <h2>Prêt à passer sur Tito pour votre structure ?</h2>
       <p>
         Profitez d'un mois d'essai gratuit, sécurisé et sans engagement. Aucune carte bancaire requise.
       </p>
       <div class="hero-cta-group">
-        <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Matéo gratuitement</a>
+        <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
       </div>
     </div>
   </div>

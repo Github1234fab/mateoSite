@@ -1,7 +1,7 @@
 import { METIERS } from '#lib/data/metiers.js';
 
 export async function GET() {
-  const baseUrl = 'https://mateo.fr';
+  const baseUrl = 'https://tito.fr';
   const currentDate = new Date().toISOString().split('T')[0];
 
   const staticPages = [

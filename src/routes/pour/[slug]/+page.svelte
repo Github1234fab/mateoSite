@@ -16,11 +16,11 @@
 <svelte:head>
   <title>{metier.seoTitle}</title>
   <meta name="description" content={metier.metaDescription} />
-  <link rel="canonical" href="https://mateo.fr/pour/{metier.slug}" />
+  <link rel="canonical" href="https://tito.fr/pour/{metier.slug}" />
   <meta property="og:title" content={metier.seoTitle} />
   <meta property="og:description" content={metier.metaDescription} />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://mateo.fr/pour/{metier.slug}" />
+  <meta property="og:url" content="https://tito.fr/pour/{metier.slug}" />
 
   <!-- Schema.org JSON-LD (Breadcrumb & FAQ) -->
   {@html `<script type="application/ld+json">
@@ -32,19 +32,19 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Accueil",
-        "item": "https://mateo.fr"
+        "item": "https://tito.fr"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Métiers",
-        "item": "https://mateo.fr/metiers"
+        "item": "https://tito.fr/metiers"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "${metier.name}",
-        "item": "https://mateo.fr/pour/${metier.slug}"
+        "item": "https://tito.fr/pour/${metier.slug}"
       }
     ]
   }
@@ -94,7 +94,7 @@
     </p>
 
     <div class="pseo-action-row">
-      <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Matéo pour {metier.name}</a>
+      <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito pour {metier.name}</a>
       <a href={parentSolution.url} class="btn btn-secondary btn-lg">Espace {parentSolution.name}</a>
     </div>
   </div>
@@ -159,9 +159,9 @@
 
     <div class="section-header">
       <span class="badge badge-pill">Dépenses courantes</span>
-      <h2 class="section-title">Les charges récurrentes pointées par Matéo</h2>
+      <h2 class="section-title">Les charges récurrentes pointées par Tito</h2>
       <p class="section-subtitle">
-        Matéo reconnaît automatiquement ces libellés sur votre relevé bancaire pour les ventiler sans erreur.
+        Tito reconnaît automatiquement ces libellés sur votre relevé bancaire pour les ventiler sans erreur.
       </p>
     </div>
 
@@ -206,7 +206,7 @@
         Profitez de votre premier mois d'essai gratuit et sans engagement. Prenez le contrôle de votre trésorerie en 3 minutes par semaine.
       </p>
       <div class="hero-cta-group">
-        <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Matéo gratuitement</a>
+        <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
       </div>
     </div>
   </div>
