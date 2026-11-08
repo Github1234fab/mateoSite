@@ -110,6 +110,62 @@ export const SOLUTIONS = {
       "Suivi des encaissements clients et des créances en retard",
       "Vision claire de la marge nette d'exploitation"
     ]
+  },
+  "sci-familiale": {
+    slug: "sci-familiale",
+    badge: "SCI Familiale (IR)",
+    title: "La gestion locative et comptable simplifiée pour les SCI à l'IR",
+    subtitle: "Gestion et encaissement des loyers, quittances en 1 clic, suivi des apports en compte courant d'associé et préparation de la déclaration 2072.",
+    seoTitle: "Logiciel de Comptabilité et Gestion pour SCI Familiale (IR / 2072) | Tito",
+    metaDescription: "Pilotez votre SCI familiale sans prise de tête : encaissement des loyers, quittances automatiques, suivi des comptes courants d'associés et déclaration 2072.",
+    keyBenefits: [
+      {
+        title: "Encaissement des loyers & quittances en 1 clic",
+        desc: "Pointez automatiquement les virements de vos locataires, distinguez le loyer nu des provisions sur charges et générez les quittances instantanément."
+      },
+      {
+        title: "Suivi des comptes courants d'associés",
+        desc: "Tracez chaque apport ou remboursement par associé (travaux, mensualités d'emprunt, taxe foncière) pour une transparence totale en assemblée générale."
+      },
+      {
+        title: "Préparation de la déclaration n° 2072",
+        desc: "Tito ventile les revenus fonciers et les charges déductibles (intérêts d'emprunt, assurances, travaux, taxes) selon les rubriques exactes de la 2072."
+      }
+    ],
+    features: [
+      "Import bancaire CSV et rapprochement automatique des loyers",
+      "Génération des quittances de loyer et avis d'échéance",
+      "État individuel des comptes courants d'associés",
+      "Synthèse annuelle prête pour la déclaration 2072 et l'AG"
+    ]
+  },
+  "copropriete-benevole": {
+    slug: "copropriete-benevole",
+    badge: "Copropriété Bénévole & Syndic Coopératif",
+    title: "La comptabilité de syndic bénévole claire et conforme ALUR",
+    subtitle: "Répartition par tantièmes et lots, appels de fonds trimestriels, fonds travaux ALUR et régularisation des charges annuelles sans jargon.",
+    seoTitle: "Logiciel de Gestion et Comptabilité pour Syndic Bénévole & Coopératif | Tito",
+    metaDescription: "Gérez votre copropriété bénévole en toute conformité : clés de répartition par tantièmes, appels de fonds, fonds travaux ALUR et arrêté des comptes annuel.",
+    keyBenefits: [
+      {
+        title: "Répartition automatique par tantièmes et lots",
+        desc: "Paramétrez vos lots et vos clés de répartition (charges générales, escalier, chauffage) une seule fois : Tito calcule la quote-part de chaque copropriétaire."
+      },
+      {
+        title: "Appels de fonds & suivi du fonds travaux ALUR",
+        desc: "Éditez vos appels de provisions trimestriels et suivez distinctement la cotisation obligatoire au fonds de travaux (Loi ALUR)."
+      },
+      {
+        title: "Régularisation annuelle des charges en 1 clic",
+        desc: "En fin d'exercice, Tito compare les dépenses réelles aux provisions appelées et génère le décompte individuel de régularisation pour l'AG."
+      }
+    ],
+    features: [
+      "Pointage des règlements copropriétaires par import CSV",
+      "Édition des appels de fonds et relances automatiques",
+      "Suivi séparé du budget prévisionnel et du fonds travaux ALUR",
+      "Annexes comptables et rapport financier clairs pour l'Assemblée Générale"
+    ]
   }
 };
 

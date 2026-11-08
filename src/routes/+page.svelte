@@ -1,49 +1,52 @@
 <script>
-
   const pillars = [
     {
-      title: "Micro-Entreprises",
-      tag: "Auto-entrepreneurs",
-      icon: "⚡",
-      iconClass: "pillar-icon-cyan",
-      btnClass: "btn-card-cta-cyan",
-      ctaLabel: "Voir l'espace Micro-Entreprise",
-      desc: "Livre des recettes chronologique certifié DGFiP, suivi du chiffre d'affaires en direct et alertes en amont sur vos seuils de franchise de TVA.",
+      title: "Micro-entreprise",
+      tag: "Auto-entrepreneur",
+      desc: "Livre des recettes, registre des achats horodaté, suivi en temps réel des seuils de franchise TVA et des déclarations Urssaf.",
+      ctaLabel: "Voir l'espace Micro-entreprise",
       link: "/solutions/micro-entreprise",
-      bulletPoints: ["Livre officiel des recettes DGFiP", "Alertes seuils URSSAF & TVA", "Calcul du net disponible estimé"]
+      btnClass: "btn-card-cta-cyan"
     },
     {
-      title: "Professions Libérales & Santé",
-      tag: "Santé, Droit & BNC",
-      icon: "🩺",
-      iconClass: "pillar-icon-blue",
-      btnClass: "btn-card-cta",
-      ctaLabel: "Voir l'espace Libéral & Santé",
-      desc: "Kinés, infirmiers IDEL, médecins, psychologues et avocats : suivez vos honoraires, vos rétrocessions et préparez votre 2035 sans stress.",
-      link: "/solutions/professions-liberales",
-      bulletPoints: ["Rapprochement CPAM & Tiers-Payant", "Déduction des rétrocessions", "Exonération de TVA médicale"]
-    },
-    {
-      title: "Associations Loi 1901",
-      tag: "Bénévoles & Dirigeants",
-      icon: "🤝",
-      iconClass: "pillar-icon-purple",
-      btnClass: "btn-card-cta",
-      ctaLabel: "Voir l'espace Associations",
-      desc: "Gérez vos cotisations, adhérents et dons sans tableur complexe. Édition automatique des reçus fiscaux CERFA officiels pour vos donateurs.",
+      title: "Association Loi 1901",
+      tag: "Clubs & Assos",
+      desc: "Registre des cotisations adhérents, justificatifs Cerfa 15059 pour subventions et génération des reçus fiscaux de dons.",
+      ctaLabel: "Voir l'espace Association",
       link: "/solutions/association",
-      bulletPoints: ["Suivi adhérents & cotisations", "Génération automatique reçus CERFA", "Rapport financier pour l'AG"]
+      btnClass: "btn-card-cta"
     },
     {
-      title: "TPE & Artisans",
-      tag: "Petites entreprises",
-      icon: "📊",
-      iconClass: "pillar-icon-emerald",
-      btnClass: "btn-card-cta",
-      ctaLabel: "Voir l'espace TPE & Artisans",
-      desc: "Pilotez sereinement votre trésorerie avec la Météo financière, le radar des échéances et la détection immédiate des factures manquantes.",
+      title: "Société / TPE",
+      tag: "SASU, EURL, SARL, SAS",
+      desc: "Comptabilité d'engagement simplifiée : livre-journal, grand-livre, ventilation TVA et export FEC conforme pour l'expert-comptable.",
+      ctaLabel: "Voir l'espace Société & TPE",
       link: "/solutions/tpe",
-      bulletPoints: ["Météo de trésorerie prévisionnelle", "Radar des échéances fournisseurs & TVA", "Export pré-comptable pour l'expert"]
+      btnClass: "btn-card-cta"
+    },
+    {
+      title: "Profession Libérale",
+      tag: "Déclaration 2035 BNC",
+      desc: "Livre-journal des recettes/dépenses BNC, barème kilométrique officiel et préparation sans erreur de la liasse 2035.",
+      ctaLabel: "Voir l'espace Libéral BNC",
+      link: "/solutions/professions-liberales",
+      btnClass: "btn-card-cta"
+    },
+    {
+      title: "SCI Familiale",
+      tag: "Impôt sur le Revenu (IR)",
+      desc: "Gestion et encaissement des loyers, quittances en 1 clic, suivi des apports en compte courant d'associé et déclaration 2072.",
+      ctaLabel: "Voir l'espace SCI Familiale",
+      link: "/solutions/sci-familiale",
+      btnClass: "btn-card-cta"
+    },
+    {
+      title: "Copropriété Bénévole",
+      tag: "Syndic Coopératif",
+      desc: "Répartition par tantièmes et lots, appels de fonds trimestriels, fonds travaux ALUR et régularisation des charges annuelles.",
+      ctaLabel: "Voir l'espace Copropriété",
+      link: "/solutions/copropriete-benevole",
+      btnClass: "btn-card-cta"
     }
   ];
 
@@ -58,158 +61,203 @@
     { name: "Coach & Formateur", slug: "coach-formateur" },
     { name: "Club Sportif Associatif", slug: "club-sportif" }
   ];
+
+  const steps = [
+    {
+      num: "1",
+      title: "Aucune configuration comptable",
+      desc: "Vous choisissez votre structure juridique, Tito applique le bon plan comptable et les bons formulaires fiscaux automatiquement.",
+      badge: "Simplicité"
+    },
+    {
+      num: "2",
+      title: "Des livrables officiels, pas des brouillons",
+      desc: "Du fichier FEC normé au Cerfa de don, chaque document généré est immédiatement transmissible à l'administration ou à un tiers.",
+      badge: "Conformité"
+    },
+    {
+      num: "3",
+      title: "Un tarif unique et transparent : 8,99 €/mois",
+      desc: "Aucun supplément par structure, par lot ou par chiffre d'affaires.",
+      badge: "Tarif"
+    }
+  ];
+
+  const homeFaq = [
+    {
+      q: "Mon niveau en compta est proche de zéro. Est-ce que je vais vraiment m'en sortir ?",
+      a: "Oui, c'est exactement pour toi que Tito existe. Tu n'as aucun numéro de compte comptable à connaître. Tito te parle en français courant (« Pour ton statut, voici ce qu'on te demande », « Clique ici pour ranger cette dépense ») et t'explique le pourquoi en une phrase simple."
+    },
+    {
+      q: "Pourquoi un tarif unique à 8,99 €/mois alors que les autres ont 3 ou 4 formules ?",
+      a: "Parce que tu n'as pas de temps à perdre à décrypter un tableau comparatif pour savoir si tu as droit à telle ou telle option. Chez Tito, tout est inclus pour moins de 110 € par an. Tu indiques ton statut, Tito s'adapte, et basta."
+    },
+    {
+      q: "Est-ce que je reste 100 % dans les clous vis-à-vis de l'URSSAF, des impôts ou de mon comptable ?",
+      a: "À 100 %. Derrière son interface ultra-simple, Tito applique rigoureusement les règles officielles (livre des recettes DGFiP, catégories BNC 2035, Loi 1901 et exports standards pour l'expert-comptable)."
+    },
+    {
+      q: "Que se passe-t-il après les 30 jours d'essai gratuit ?",
+      a: "Zéro piège : on ne te demande pas ta carte bancaire pour essayer. Au bout de 30 jours, si Tito te fait gagner un temps précieux, tu t'abonnes à 8,99 €/mois sans engagement. Sinon, tu récupères tes exports en 1 clic."
+    }
+  ];
+
+  /** @type {number | null} */
+  let openFaqIndex = $state(null);
+
+  /** @param {number} index */
+  function toggleFaq(index) {
+    openFaqIndex = openFaqIndex === index ? null : index;
+  }
 </script>
 
 <svelte:head>
-  <title>Tito — La gestion, sans jargon</title>
-  <meta name="description" content="Tito est le logiciel de gestion financière ultra-simple qui prépare tout pour votre expert-comptable et divise vos frais de tenue de comptes annuelle." />
+  <title>Tito — La gestion sans jargon</title>
+  <meta name="description" content="La compta démystifiée en 3 gestes simples. Donne 98 % de ton temps à ton métier et ta passion, Tito s'occupe des 2 % restants pour un tarif unique." />
   <link rel="canonical" href="https://tito.fr" />
 </svelte:head>
 
-<!-- HERO SUR FOND BLEU IMPACTANT -->
+<!-- 1. HERO (FOND BLEU MARINE) : IMPACTANT, JEUNE & DÉMYSTIFIANT -->
 <section class="hero-section-blue">
   <div class="container">
     <div class="hero-badge-wrap">
-      <span class="badge badge-beta">1 mois d'essai offert • Sans carte bancaire</span>
+      <span class="badge badge-beta">LA GESTION SANS JARGON • 100 % CONFORME</span>
     </div>
 
     <h1 class="hero-title hero-title-blue">
-      La gestion, <span class="hero-highlight">sans jargon</span>
+Tito <span class="hero-highlight">comprend</span>, <br> Tito  <span class="hero-highlight">apprend</span>, <br> Tito vous fait gagner du  <span class="hero-highlight">temps</span>
     </h1>
 
     <p class="hero-subtitle-blue">
-      Un logiciel ultra-simple, lisible et pédagogique. <br> Importez simplement vos relevés bancaires et Tito fera tout le boulot!
+      Micro-entreprise, association, société, profession libérale, SCI ou copropriété : Tit<span class="brand-name-accent">o</span> configure vos registres légaux et vos exports en un clic, selon vos obligations réelles.
     </p>
 
     <div class="hero-cta-group">
       <a href="#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
-      <a href="#solutions" class="btn btn-outline-white btn-lg">Consulter vos obligations comptables</a>
+      <a href="#les-3-gestes" class="btn btn-outline-white btn-lg">Comprendre le principe en 30 sec &darr;</a>
     </div>
 
-    <p class="hero-guarantee-note">
-      1 mois offert • Sans carte bancaire • Prise en main en 3 minutes
-    </p>
+    <!-- <p class="hero-guarantee-note">
+      Tarif unique 8,99 €/mois • 30 jours d'essai offert • Sans carte bancaire
+    </p> -->
 
     <div class="hero-trust-list-blue">
       <div class="hero-trust-item-blue">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-        <span>Divise vos frais de comptabilité annuelle</span>
+        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
+        <span>Micro-entreprise</span>
       </div>
       <div class="hero-trust-item-blue">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-        <span>Compatible toutes banques françaises (CSV)</span>
+        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
+        <span>Association 1901</span>
       </div>
       <div class="hero-trust-item-blue">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-        <span>Conforme normes URSSAF, BNC & Loi 1901</span>
+        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
+        <span>Société / TPE</span>
+      </div>
+      <div class="hero-trust-item-blue">
+        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
+        <span>Libéral BNC</span>
+      </div>
+      <div class="hero-trust-item-blue">
+        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
+        <span>SCI Familiale</span>
+      </div>
+      <div class="hero-trust-item-blue">
+        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
+        <span>Copropriété bénévole</span>
       </div>
     </div>
 
-    <!-- PREUVE VISUELLE : MOCKUP FLAT DE L'INTERFACE TITO -->
+    <!-- PREUVE VISUELLE : COMMENT TITO TE PARLE VRAIMENT -->
     <div class="hero-mockup-wrapper">
       <div class="hero-mockup-frame">
-        <!-- Barre de fenêtre Mac -->
         <div class="mockup-window-header">
           <div class="mockup-window-dots">
             <span class="mockup-dot mockup-dot-red"></span>
             <span class="mockup-dot mockup-dot-yellow"></span>
             <span class="mockup-dot mockup-dot-green"></span>
           </div>
-          <div class="mockup-window-title">Tito — Pilotage Financier & Pointage Bancaire</div>
+          <div class="mockup-window-title">Tito — Le copilote sans jargon</div>
           <div class="mockup-window-status">
             <span class="mockup-status-pulse"></span>
-            <span>Flux bancaire synchronisé</span>
+            <span>Les comptes sont 100% à jour</span>
           </div>
         </div>
 
-        <!-- Barre navigation & KPIs -->
-        <div class="mockup-app-bar">
-          <div class="mockup-nav-pills">
-            <div class="mockup-pill-tab mockup-pill-tab-active">
-              <span>Pointage des flux</span>
-              <span class="mockup-tab-count">3</span>
-            </div>
-            <div class="mockup-pill-tab">Météo Trésorerie</div>
-            <div class="mockup-pill-tab">Livre des recettes DGFiP</div>
-          </div>
-
-          <div class="mockup-kpi-group">
-            <div class="mockup-kpi-badge">
-              <span>☀️ Météo : Serein (3 mois de visibilité)</span>
-            </div>
-            <div class="mockup-balance">
-              Solde bancaire : <strong>8 420,50 €</strong>
+        <!-- Bandeau guide Tito -->
+        <div class="mockup-coach-banner">
+          <div class="mockup-coach-left">
+            <span class="mockup-coach-emoji">👋</span>
+            <div>
+              <strong>Statut: </strong>
+              <span>Livre des recettes à jour ✓ • Seuil TVA sécurisé (reste 18 400 € de marge) ✓</span>
             </div>
           </div>
+          <span class="mockup-kpi-badge"> Trésorerie sereine : 8 420 €</span>
         </div>
 
-        <!-- Tableau des lignes bancaires classées en vert -->
+        <!-- Lignes bancaires -->
         <div class="mockup-feed-table">
-          <!-- Ligne 1 : Recette encaissée -->
+          <!-- Ligne 1 : Rangée toute seule -->
           <div class="mockup-feed-row">
             <div class="mockup-row-left">
               <span class="mockup-row-date">Hier</span>
               <div>
-                <div class="mockup-row-label">Virement reçu — Facture #2026-042 (Client SARL Duval)</div>
-                <div class="mockup-row-meta">Crédit bancaire • Rapprochement automatique</div>
+                <div class="mockup-row-label">Virement reçu — Client Studio / Prestation</div>
+                <div class="mockup-row-meta">Tito a reconnu ce virement et l'a ajouté aux recettes officielles.</div>
               </div>
             </div>
             <div class="mockup-row-right">
               <span class="mockup-amount-positive">+ 1 450,00 €</span>
               <span class="mockup-classification-badge">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Recette / Honoraires BNC</span>
+                <span>Attribution automatique</span>
               </span>
-              <span class="mockup-file-tag">Facture liée ✓</span>
             </div>
           </div>
 
-          <!-- Ligne 2 : Dépense outillage / matières -->
+          <!-- Ligne 2 : Rangée toute seule -->
           <div class="mockup-feed-row">
             <div class="mockup-row-left">
               <span class="mockup-row-date">03 Nov</span>
               <div>
-                <div class="mockup-row-label">Castorama Pro — Outillage atelier & consommables</div>
-                <div class="mockup-row-meta">Débit CB • TVA 20% déduite : 35,75 €</div>
-              </div>
-            </div>
-            <div class="mockup-row-right">
-              <span class="mockup-amount-negative">- 214,50 €</span>
-              <span class="mockup-classification-badge">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Achats Matériel</span>
-              </span>
-              <span class="mockup-file-tag">Ticket rattaché ✓</span>
-            </div>
-          </div>
-
-          <!-- Ligne 3 : Déclaration URSSAF -->
-          <div class="mockup-feed-row">
-            <div class="mockup-row-left">
-              <span class="mockup-row-date">28 Oct</span>
-              <div>
-                <div class="mockup-row-label">Prélèvement URSSAF — Cotisations sociales T3</div>
-                <div class="mockup-row-meta">Prélèvement SEPA • Déduction fiscale certifiée</div>
+                <div class="mockup-row-label">Prélèvement URSSAF — Cotisations</div>
+                <div class="mockup-row-meta">Classé automatiquement dans tes charges sociales obligatoires.</div>
               </div>
             </div>
             <div class="mockup-row-right">
               <span class="mockup-amount-negative">- 340,00 €</span>
               <span class="mockup-classification-badge">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Charges sociales</span>
+            <span>Attribution automatique</span>
               </span>
-              <span class="mockup-file-tag">Conforme DGFiP</span>
+            </div>
+          </div>
+
+          <!-- Ligne 3 : Question 1-clic pédagogique -->
+          <div class="mockup-feed-row mockup-row-question">
+            <div class="mockup-row-left">
+              <span class="mockup-row-date">02 Nov</span>
+              <div>
+                <div class="mockup-row-label">CB SNCF Voyageurs — 89,00 €</div>
+                <div class="mockup-row-meta mockup-meta-highlight">
+                  💡 <strong>Tito a un doute :</strong> Était-ce un déplacement pro ? 
+                </div>
+              </div>
+            </div>
+            <div class="mockup-row-right">
+              <span class="mockup-amount-negative">- 89,00 €</span>
+              <span class="mockup-oneclick-btn">
+                ✓ Oui, déplacement pro
+              </span>
             </div>
           </div>
         </div>
 
-        <!-- Footer du mockup -->
         <div class="mockup-footer-bar">
-          <div>
-            ⚡ <strong>Pointage instantané</strong> : Glissez votre relevé bancaire, Tito ventile tout en français courant.
-          </div>
+          
           <div class="mockup-footer-highlight">
-            <span>Dossier annuel prêt pour votre expert</span>
+            <span>Sortir mes pièces obligatoires en 1 clic</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
           </div>
         </div>
@@ -218,62 +266,46 @@
   </div>
 </section>
 
-<!-- ARGUMENT PHARE : RÉDUIRE LES FRAIS COMPTABLES -->
-<section class="expert-box-section">
+<!-- 2. DÉMYSTIFICATION : LES 3 GESTES (FOND BLANC, STEPPER SANS BOÎTES) -->
+<section class="how-it-works-section" id="les-3-gestes">
   <div class="container">
-    <div class="expert-pitch-card">
-      <div>
-        <span class="badge badge-pill">Le bon sens financier</span>
-        <h2 class="expert-pitch-title">Ne payez plus votre comptable pour de la simple saisie</h2>
-        <p class="expert-pitch-desc">
-          Passer des heures à saisir des lignes de relevé bancaire à 150 € ou 250 € par mois est une aberration. Tito classe vos flux bancaires automatiquement chaque semaine.
-        </p>
-        <div class="expert-quote-highlight">
-          « Vous ne payez l'expert-comptable qu'en une seule fois pour son vrai conseil et votre bilan officiel. Plus besoin de forfait mensuel coûteux pour la simple tenue de vos comptes. »
-        </div>
-      </div>
+    <div class="section-header">
+      <span class="badge badge-pill">GESTION COMPTABLE SANS FRICTION</span>
+      <h2 class="section-title-center">Une gestion rigoureuse repose sur 3 évidences.</h2>
+      <p class="section-subtitle">
+   La gestion financière n'a pas à être opaque ou surdimensionnée. Tito applique une méthode claire et sans détour pour piloter votre structure en toute autonomie.
+      </p>
+    </div>
 
-      <div class="expert-benefits-list">
-        <div class="expert-benefit-item">
-          <div class="benefit-check-icon">✓</div>
-          <div>
-            <div class="benefit-text-title">3 minutes par semaine</div>
-            <div class="benefit-text-desc">Vous glissez votre relevé de compte, Tito pointe et ventile chaque recette et dépense.</div>
+    <div class="stepper-track" role="list">
+      {#each steps as step, i}
+        <div class="stepper-item" role="listitem">
+          <div class="stepper-node-row">
+            <div class="stepper-circle stepper-circle-{i + 1}">
+              <span>{step.num}</span>
+            </div>
           </div>
+          <span class="stepper-time-tag">{step.badge}</span>
+          <h3 class="stepper-title">{step.title}</h3>
+          <p class="stepper-desc">{step.desc}</p>
         </div>
-
-        <div class="expert-benefit-item">
-          <div class="benefit-check-icon">✓</div>
-          <div>
-            <div class="benefit-text-title">Dossier nickel pour le bilan</div>
-            <div class="benefit-text-desc">En fin d'exercice, toutes les pièces justificatives sont rattachées et lettrées pour votre expert.</div>
-          </div>
-        </div>
-
-        <div class="expert-benefit-item">
-          <div class="benefit-check-icon">✓</div>
-          <div>
-            <div class="benefit-text-title">Zéro jargon rébarbatif</div>
-            <div class="benefit-text-desc">Des termes limpides que vous comprenez immédiatement, sans formation comptable requise.</div>
-          </div>
-        </div>
-      </div>
+      {/each}
     </div>
   </div>
 </section>
 
-<!-- 3E BLOC : LES 4 PILIERS AVEC FOND BLEU PUNCHY ET VRAIS BOUTONS CTA -->
+<!-- 3. ÉCOSYSTÈME TITO (FOND BLEU MARINE CONSERVÉ) -->
 <section class="section-pillars-blue" id="solutions">
   <div class="container">
     <div class="section-header">
       <span class="badge badge-beta">Écosystème Tito</span>
-      <h2 class="section-pillars-title">Un logiciel taillé pour chaque métier et chaque statut</h2>
+      <h2 class="section-pillars-title">Tito gère la compta de toutes les formes juridiques</h2>
       <p class="section-pillars-sub">
-        Tito connait toutes les obligations de votre activité. <br> Il va gérer vos flux, organiser votre comptabilité et préparer pour vous toutes les pièces nécessaires à vos déclarations.
+Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SARL, holding,SCI...
       </p>
     </div>
 
-    <div class="grid-4">
+    <div class="grid-3">
       {#each pillars as pillar}
         <article class="pillar-card-dark">
           <span class="badge pillar-card-tag">
@@ -282,15 +314,6 @@
 
           <h3 class="pillar-card-title">{pillar.title}</h3>
           <p class="pillar-card-desc">{pillar.desc}</p>
-          
-          <div class="pillar-bullet-list">
-            {#each pillar.bulletPoints as point}
-              <div class="pillar-bullet-item">
-                <span class="pillar-check-icon">✓</span>
-                <span>{point}</span>
-              </div>
-            {/each}
-          </div>
 
           <a href={pillar.link} class="btn {pillar.btnClass}">
             <span>{pillar.ctaLabel}</span>
@@ -302,53 +325,175 @@
   </div>
 </section>
 
-<!-- SECTION METIERS (MAILLAGE DIRECT SUR LA HOME) -->
-<section class="section" id="metiers-section">
+<!-- 4. LE MANIFESTE 98% / 2% & LE TARIF UNIQUE "ET BASTA" (FOND BLANC) -->
+<section class="pricing-manifesto-section" id="tarif">
   <div class="container">
-    <div class="section-header">
-      <span class="badge badge-pill">Zero stress avec Tito</span>
-      <h2 class="section-title-center">Vous êtes unique. Tito aussi.</h2>
-      <p class="section-subtitle">
-        Seuils URSSAF, exonérations de TVA, charges déductibles typiques : Tito sait déjà tout sur votre activité et comment la gérer.
-      </p>
-    </div>
+    <div class="pricing-manifesto-grid">
+      <!-- Colonne gauche : La philosophie 98% / 2% -->
+      <div class="manifesto-left">
+        <span class="badge badge-pill">Une gestion du temps maîtrisée</span>
+        <h2 class="manifesto-title">
+          Donnez 98 % de votre énergie à votre <span class="hero-highlight">métier</span>. Laissez Tito s'occuper des 2 % restants pour gérer votre <span class="hero-highlight">comptabilité</span>.
+        </h2>
+        <p class="manifesto-desc">
+          Enfin un logiciel de gestion comptable clair, simple et pédagogique. Tito vous fait gagner du temps et de l'argent.
+        </p>
 
-    <div class="metiers-showcase-box">
-      <div class="metiers-tags-wrap">
-        {#each popularMetiers as m}
-          <a href="/pour/{m.slug}" class="btn btn-secondary btn-pill">
-            <span>{m.name}</span>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-          </a>
-        {/each}
+        <div class="manifesto-points">
+          <div class="manifesto-point">
+            <div class="benefit-check-icon">✓</div>
+            <div>
+              <strong>Chaque jour Tito apprend</strong>
+              <p>Au fur et à mesure, Tito constitue votre bibliothèque de libellés et d'attribution. Plus vous avancez, moins vous travaillez. </p>
+            </div>
+          </div>
+
+          <div class="manifesto-point">
+            <div class="benefit-check-icon">✓</div>
+            <div>
+              <strong>Pédagogique avant tout</strong>
+              <p>L'idéal dans un logiciel de gestion, c'est de comprendre ce qu'il fait, sans aucune notion de comptabilité. </p>
+            </div>
+          </div>
+
+          <div class="manifesto-point">
+            <div class="benefit-check-icon">✓</div>
+            <div>
+              <strong>Économisez des centaines d'euros chaque année</strong>
+              <p>Plus de forfait mensuel de saisie comptable : tout est déjà rangé et prêt en 1 clic.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="text-center">
-        <a href="/metiers" class="btn btn-primary btn-lg center-link">
-          <span>Explorer l'annuaire complet de tous les métiers &rarr;</span>
+      <!-- Colonne droite : La carte Tarif Unique -->
+      <div class="single-price-card">
+        <span class="single-price-badge">TARIF UNIQUE</span>
+        <div class="single-price-Title">Tout Tito. Sans options cachées.</div>
+
+        <div class="single-price-amount-row">
+          <span class="single-price-number">8,99 €</span>
+          <span class="single-price-period">/ mois</span>
+        </div>
+        <div class="single-price-yearly">
+          Soit ~100 € sur l'année • Rentabilisé dès la 1re semaine
+        </div>
+
+        <ul class="single-price-features">
+          <li>
+            <span class="pillar-check-icon">✓</span>
+            <span>Import CSV illimité (100 % des banques françaises)</span>
+          </li>
+          <li>
+            <span class="pillar-check-icon">✓</span>
+            <span>Attribution automatique & validation en 1 clic</span>
+          </li>
+            <li>
+            <span class="pillar-check-icon">✓</span>
+            <span>Création de structures illimitées</span>
+          </li>
+          <li>
+            <span class="pillar-check-icon">✓</span>
+            <span>Radar des obligations & seuils selon la forme juridique</span>
+          </li>
+          <li>
+            <span class="pillar-check-icon">✓</span>
+            <span>Toutes vos pièces obligatoires (Livre DGFiP, 2035, CERFA, Bilan)</span>
+          </li>
+        </ul>
+
+        <a href="https://app.tito.fr" class="btn btn-primary btn-lg single-price-cta" target="_blank" rel="noopener">
+          Essayer gratuitement pendant 30 jours &rarr;
         </a>
+        <div class="single-price-note">
+          Sans carte bancaire • Sans engagement
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- BANNIÈRE ESSAI GRATUIT / CTA -->
-<section class="section section-alt" id="essai-gratuit">
+<!-- 5. SECTION METIERS : TU NE CONNAIS PAS TES OBLIGATIONS ? (FOND BLEU MARINE) -->
+<section class="section metiers-home-section" id="metiers-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-beta">Fiches métiers sans jargon</span>
+      <h2 class="section-pillars-title">Vous n'êtes pas sûr des obligations de votre forme juridique ? Consultez votre fiche métier.</h2>
+      <p class="section-pillars-sub">
+        Seuils URSSAF, TVA, documents officiels: consultez votre fiche métier, et découvrez comment Tito vous accompagne au quotidien.
+      </p>
+    </div>
+
+    <div class="metiers-directory-list">
+      {#each popularMetiers as m}
+        <a href="/pour/{m.slug}" class="metier-clean-link">
+          <span class="metier-clean-name">{m.name}</span>
+          <span class="metier-clean-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      {/each}
+    </div>
+
+    <div class="text-center">
+      <a href="/metiers" class="btn btn-primary btn-lg center-link">
+        <span>Voir tous les métiers et leurs obligations &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 6. MINI-FAQ DIRECTE (FOND BLANC) -->
+<section class="section home-faq-section" id="faq">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-pill">Questions fréquentes</span>
+      <h2 class="section-title-center">Tito répond à vos questions</h2>
+      <p class="section-subtitle">
+        Retrouvez les réponses aux questions les plus fréquentes.
+      </p>
+    </div>
+
+    <div class="accordion-list">
+      {#each homeFaq as item, index}
+        <div class="accordion-item {openFaqIndex === index ? 'is-open' : ''}">
+          <button
+            type="button"
+            class="accordion-trigger"
+            aria-expanded={openFaqIndex === index}
+            onclick={() => toggleFaq(index)}
+          >
+            <span class="accordion-question">{item.q}</span>
+            <span class="accordion-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </span>
+          </button>
+          {#if openFaqIndex === index}
+            <div class="accordion-content">
+              <p>{item.a}</p>
+            </div>
+          {/if}
+        </div>
+      {/each}
+    </div>
+  </div>
+</section>
+
+<!-- 7. BANNIÈRE ESSAI GRATUIT / CTA FINAL (FOND BLEU MARINE) -->
+<section class="section trial-section-dark" id="essai-gratuit">
   <div class="container">
     <div class="trial-custom-card">
-      <span class="trial-custom-badge">ESSAI SANS ENGAGEMENT</span>
+      <span class="trial-custom-badge">30 JOURS D'ESSAI OFFERT • SANS CARTE BANCAIRE</span>
 
       <h2 class="trial-custom-title">
-        Découvrez la gestion sans jargon avec Tito<br />
-        Bénéficiez de 30 jours d’essai gratuit, sans carte bancaire.
+      Testez l'esprit libre,<br> décidez plus tard
       </h2>
 
       <p class="trial-custom-subtitle">
-        Prenez le contrôle de votre trésorerie en 3 minutes par semaine.
+       importez, Tito range, Tito explique et vous êtes serein, toute l'année.
       </p>
 
       <div class="trial-custom-grid">
-        <!-- Colonne 1 : Accès immédiat -->
         <div class="trial-custom-col">
           <div class="trial-custom-icon-wrap trial-icon-bg-cyan">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -357,13 +502,12 @@
               <polygon points="12.5 8 9.5 13.5 12 13.5 11.5 18 14.5 12.5 12 12.5 12.5 8" fill="rgba(34, 211, 238, 0.25)"/>
             </svg>
           </div>
-          <div class="trial-custom-col-title">Accès immédiat</div>
+          <div class="trial-custom-col-title">2 minutes Chrono</div>
           <p class="trial-custom-col-desc">
-            Commencez dès maintenant. <br><br>Importez vos releves bancaires en CSV et laissez Tito faire le reste!
+          Choisissez votre statut juridique, importez votre CSV bancaire et laissez la magie opérer en quelques secondes.
           </p>
         </div>
 
-        <!-- Colonne 2 : Accompagnement bienveillant -->
         <div class="trial-custom-col">
           <div class="trial-custom-icon-wrap trial-icon-bg-mint">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -373,13 +517,12 @@
               <path d="M16 16c1.5-.5 3-.5 4.5 0"/>
             </svg>
           </div>
-          <div class="trial-custom-col-title">Accompagnement bienveillant</div>
+          <div class="trial-custom-col-title">Simplicité et tranquilité</div>
           <p class="trial-custom-col-desc">
-           Des tutos partout dans Tito, pour une prise en main extrèmement simple. <br><br> Quand on a le savoir et que l'on désire transmettre, on ne complexifie jamais rien. 
+          Tito classe, range et vous comprenez tout ce qu'il fait grâce à des infosbulles.
           </p>
         </div>
 
-        <!-- Colonne 3 : Liberté totale -->
         <div class="trial-custom-col">
           <div class="trial-custom-icon-wrap trial-icon-bg-amber">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -391,7 +534,7 @@
           </div>
           <div class="trial-custom-col-title">Liberté totale</div>
           <p class="trial-custom-col-desc">
-            Zéro prélèvement surprise. Vous testez Tito pendant 30 jours. <br><br>  Vous faites votre compta, vous générez vos pièces comptables, etc.  <br><br>  Ensuite vous partez ou vous restez, tout simplement.
+           Vous testez 30 jours gratuitement, puis 8,99 €/mois si vous restez. Vous résiliez en un clic dès que vous le souhaitez..
           </p>
         </div>
       </div>
@@ -405,9 +548,9 @@
       <div class="trial-custom-trust-row">
         <span>Sans carte bancaire</span>
         <span class="trial-custom-dot">•</span>
-        <span>Essai de 30 jours sans engagement</span>
+        <span>Tarif unique 8,99 €/mois</span>
         <span class="trial-custom-dot">•</span>
-        <span>Configuration en 30 secondes</span>
+        <span>Résiliable en 1 clic</span>
       </div>
     </div>
   </div>

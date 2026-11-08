@@ -2,23 +2,14 @@
   import '../styles/main.css';
 
   let { children } = $props();
-  let solutionsOpen = $state(false);
-
-  function toggleSolutions() {
-    solutionsOpen = !solutionsOpen;
-  }
-
-  function closeSolutions() {
-    solutionsOpen = false;
-  }
 </script>
 
 <svelte:head>
-  <title>Tito — Le logiciel de gestion et compta pour Indépendants, Libéraux, TPE et Associations</title>
-  <meta name="description" content="Tito simplifie la comptabilité des micro-entreprises, professions libérales et médicales, TPE et associations. Livre de recettes conforme, suivi des adhésions, météo de trésorerie et catégorisation intelligente." />
+  <title>Tito — La gestion, sans jargon</title>
+  <meta name="description" content="La compta expliquée et réglée en 3 gestes simples. Tu glisses ton CSV, Tito range tes opérations, t'indique tes obligations et sort tes pièces en 1 clic." />
 </svelte:head>
 
-<!-- HEADER GLOBAL -->
+<!-- HEADER GLOBAL ÉPURÉ : ZÉRO USINE À GAZ -->
 <header class="site-header">
   <div class="container header-inner">
     <a href="/" class="brand-link" aria-label="Retour à l'accueil Tito">
@@ -27,68 +18,10 @@
     </a>
 
     <nav class="nav-links" aria-label="Navigation principale">
-      <!-- DROPDOWN SOLUTIONS -->
-      <div 
-        class="nav-dropdown"
-        role="none"
-        onmouseenter={() => (solutionsOpen = true)}
-        onmouseleave={() => (solutionsOpen = false)}
-      >
-        <button 
-          type="button"
-          class="nav-dropdown-trigger" 
-          aria-expanded={solutionsOpen}
-          aria-haspopup="true"
-          onclick={toggleSolutions}
-        >
-          <span>Solutions</span>
-          <svg class="dropdown-chevron {solutionsOpen ? 'chevron-rotated' : ''}" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="6 9 12 15 18 9"/>
-          </svg>
-        </button>
-
-        <div class="nav-dropdown-menu {solutionsOpen ? 'is-open' : ''}">
-          <div class="dropdown-grid">
-            <a href="/solutions/micro-entreprise" class="dropdown-item" onclick={closeSolutions}>
-              <div>
-                <div class="dropdown-item-title">Micro-entreprise</div>
-                <div class="dropdown-item-desc">Livre des recettes DGFiP & seuils TVA</div>
-              </div>
-            </a>
-
-            <a href="/solutions/professions-liberales" class="dropdown-item" onclick={closeSolutions}>
-              <div>
-                <div class="dropdown-item-title">Professions Libérales & Santé</div>
-                <div class="dropdown-item-desc">Rapprochement CPAM, honoraires & 2035</div>
-              </div>
-            </a>
-
-            <a href="/solutions/association" class="dropdown-item" onclick={closeSolutions}>
-              <div>
-                <div class="dropdown-item-title">Associations Loi 1901</div>
-                <div class="dropdown-item-desc">Cotisations, reçus CERFA & AG</div>
-              </div>
-            </a>
-
-            <a href="/solutions/tpe" class="dropdown-item" onclick={closeSolutions}>
-              <div>
-                <div class="dropdown-item-title">TPE & Artisans</div>
-                <div class="dropdown-item-desc">Météo trésorerie & export bilan</div>
-              </div>
-            </a>
-          </div>
-
-          <div class="dropdown-footer">
-            <a href="/metiers" class="dropdown-footer-link" onclick={closeSolutions}>
-              <span>Tous les guides par métier (Infirmière, Kiné, Artisan, Avocat...)</span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <a href="/#solutions" class="nav-link">Comment ça marche</a>
-      <a href="/tarifs" class="nav-link">Tarifs</a>
+      <a href="/#les-3-gestes" class="nav-link">Les 3 gestes</a>
+      <a href="/#solutions" class="nav-link">Selon votre statut</a>
+      <a href="/metiers" class="nav-link">Obligations par métier</a>
+      <a href="/#tarif" class="nav-link">Tarif unique</a>
     </nav>
 
     <div class="header-actions">
@@ -113,7 +46,7 @@
           <span class="brand-name footer-brand-name">Ti<span class="brand-name-accent">t</span>o</span>
         </a>
         <p class="footer-desc">
-          Le copilote de gestion financière sans jargon pour indépendants, professions libérales, artisans, TPE et associations Loi 1901.
+          La compta sans jargon, en 3 gestes simples. Consacrez 98 % de votre temps à votre métier, Tito s'occupe des 2 % restants., Tito s'occupe des 2 % restants.
         </p>
       
       </div>
