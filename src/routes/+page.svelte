@@ -65,21 +65,21 @@
   const steps = [
     {
       num: "1",
-      title: "Aucune configuration comptable",
-      desc: "Vous choisissez votre structure juridique, Tito applique le bon plan comptable et les bons formulaires fiscaux automatiquement.",
-      badge: "Simplicité"
+      title: "Vous glissez votre relevé bancaire",
+      desc: "Import CSV compatible avec 100 % des banques. Vos encaissements et dépenses sont chargés instantanément, sans aucune saisie manuelle.",
+      badge: "30 secondes"
     },
     {
       num: "2",
-      title: "Des livrables officiels, pas des brouillons",
-      desc: "Du fichier FEC normé au Cerfa de don, chaque document généré est immédiatement transmissible à l'administration ou à un tiers.",
-      badge: "Conformité"
+      title: "Tito catégorise et apprend en 1 clic",
+      desc: "Tito reconnaît vos libellés, ventile la TVA et pointe vos cotisations ou loyers. S'il a un doute, vous validez sa question en un clic.",
+      badge: "Automatisé"
     },
     {
       num: "3",
-      title: "Un tarif unique et transparent : 8,99 €/mois",
-      desc: "Aucun supplément par structure, par lot ou par chiffre d'affaires.",
-      badge: "Tarif"
+      title: "Vous générez vos registres et clôturez",
+      desc: "Grand-livre, Livre-journal, Livre des recettes, export FEC, liasse 2035/2072 ou Cerfa : sortez vos pièces officielles et clôturez en un clic.",
+      badge: "Prêt à déclarer"
     }
   ];
 
@@ -125,11 +125,13 @@
     </div>
 
     <h1 class="hero-title hero-title-blue">
-Tito <span class="hero-highlight">comprend</span>, <br> Tito  <span class="hero-highlight">apprend</span>, <br> Tito vous fait gagner du  <span class="hero-highlight">temps</span>
+      Tito <span class="hero-highlight">classe</span> vos flux,<br>
+      Tito <span class="hero-highlight">apprend</span> vos règles,<br>
+      vous <span class="hero-highlight">clôturez</span> en un clic.
     </h1>
 
     <p class="hero-subtitle-blue">
-      Micro-entreprise, association, société, profession libérale, SCI ou copropriété : Tit<span class="brand-name-accent">o</span> configure vos registres légaux et vos exports en un clic, selon vos obligations réelles.
+      Importez vos opérations bancaires : Tit<span class="brand-name-accent">o</span> les ventile automatiquement et génère vos livrables officiels en un clic — <strong>Grand-livre, Livre-journal, fichier FEC, liasse 2035, 2072, reçus Cerfa et clôture annuelle</strong>.
     </p>
 
     <div class="hero-cta-group">
@@ -255,10 +257,11 @@ Tito <span class="hero-highlight">comprend</span>, <br> Tito  <span class="hero-
         </div>
 
         <div class="mockup-footer-bar">
-          
-          <div class="mockup-footer-highlight">
-            <span>Sortir mes pièces obligatoires en 1 clic</span>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          <span class="mockup-footer-label">Livrables prêts en 1 clic :</span>
+          <div class="mockup-footer-actions">
+            <span class="mockup-action-pill">📄 Grand-Livre & Journal</span>
+            <span class="mockup-action-pill">📦 Export FEC • 2035 • 2072 • Cerfa</span>
+            <span class="mockup-action-pill mockup-action-pill-primary">🔒 Clôturer l'exercice</span>
           </div>
         </div>
       </div>
@@ -270,10 +273,10 @@ Tito <span class="hero-highlight">comprend</span>, <br> Tito  <span class="hero-
 <section class="how-it-works-section" id="les-3-gestes">
   <div class="container">
     <div class="section-header">
-      <span class="badge badge-pill">GESTION COMPTABLE SANS FRICTION</span>
-      <h2 class="section-title-center">Une gestion rigoureuse repose sur 3 évidences.</h2>
+      <span class="badge badge-pill">LE PRINCIPE EN 3 GESTES</span>
+      <h2 class="section-title-center">De votre relevé bancaire à la clôture, tout est automatisé.</h2>
       <p class="section-subtitle">
-   La gestion financière n'a pas à être opaque ou surdimensionnée. Tito applique une méthode claire et sans détour pour piloter votre structure en toute autonomie.
+        Aucun numéro de compte à connaître, aucune saisie ligne par ligne : Tito transforme vos flux bancaires en documents comptables officiels.
       </p>
     </div>
 
