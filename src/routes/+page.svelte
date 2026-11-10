@@ -1,6 +1,8 @@
 <script>
   const pillars = [
     {
+      id: "statut-micro",
+      pillLabel: "Micro-entreprise",
       title: "Micro-entreprise",
       tag: "Auto-entrepreneur",
       desc: "Livre des recettes, registre des achats horodaté, suivi en temps réel des seuils de franchise TVA et des déclarations Urssaf.",
@@ -9,6 +11,8 @@
       btnClass: "btn-card-cta-cyan"
     },
     {
+      id: "statut-asso",
+      pillLabel: "Association 1901",
       title: "Association Loi 1901",
       tag: "Clubs & Assos",
       desc: "Registre des cotisations adhérents, justificatifs Cerfa 15059 pour subventions et génération des reçus fiscaux de dons.",
@@ -17,6 +21,8 @@
       btnClass: "btn-card-cta"
     },
     {
+      id: "statut-tpe",
+      pillLabel: "Société / TPE",
       title: "Société / TPE",
       tag: "SASU, EURL, SARL, SAS",
       desc: "Comptabilité d'engagement simplifiée : livre-journal, grand-livre, ventilation TVA et export FEC conforme pour l'expert-comptable.",
@@ -25,6 +31,8 @@
       btnClass: "btn-card-cta"
     },
     {
+      id: "statut-liberal",
+      pillLabel: "Libéral BNC",
       title: "Profession Libérale",
       tag: "Déclaration 2035 BNC",
       desc: "Livre-journal des recettes/dépenses BNC, barème kilométrique officiel et préparation sans erreur de la liasse 2035.",
@@ -33,6 +41,8 @@
       btnClass: "btn-card-cta"
     },
     {
+      id: "statut-sci",
+      pillLabel: "SCI Familiale",
       title: "SCI Familiale",
       tag: "Impôt sur le Revenu (IR)",
       desc: "Gestion et encaissement des loyers, quittances en 1 clic, suivi des apports en compte courant d'associé et déclaration 2072.",
@@ -41,6 +51,8 @@
       btnClass: "btn-card-cta"
     },
     {
+      id: "statut-copro",
+      pillLabel: "Copropriété bénévole",
       title: "Copropriété Bénévole",
       tag: "Syndic Coopératif",
       desc: "Répartition par tantièmes et lots, appels de fonds trimestriels, fonds travaux ALUR et régularisation des charges annuelles.",
@@ -105,9 +117,27 @@
   /** @type {number | null} */
   let openFaqIndex = $state(null);
 
+  /** @type {string | null} */
+  let selectedPillarId = $state(null);
+
   /** @param {number} index */
   function toggleFaq(index) {
     openFaqIndex = openFaqIndex === index ? null : index;
+  }
+
+  /**
+   * @param {MouseEvent} event
+   * @param {string} id
+   */
+  function selectPillar(event, id) {
+    event.preventDefault();
+    selectedPillarId = id;
+    const gridEl = document.getElementById('cartes-structures');
+    if (gridEl) {
+      const rect = gridEl.getBoundingClientRect();
+      const targetY = window.scrollY + rect.top - (window.innerHeight - rect.height) / 2 - 50;
+      window.scrollTo({ top: targetY, behavior: 'smooth' });
+    }
   }
 </script>
 
@@ -127,16 +157,28 @@
     <h1 class="hero-title hero-title-blue">
       Tito <span class="hero-highlight">classe</span> vos flux,<br>
       Tito <span class="hero-highlight">apprend</span> vos règles,<br>
-      vous <span class="hero-highlight">clôturez</span> en un clic.
+      Tito <span class="hero-highlight">clôture</span>  vos exercices.
     </h1>
 
     <p class="hero-subtitle-blue">
-      Importez vos opérations bancaires : Tit<span class="brand-name-accent">o</span> les ventile automatiquement et génère vos livrables officiels en un clic — <strong>Grand-livre, Livre-journal, fichier FEC, liasse 2035, 2072, reçus Cerfa et clôture annuelle</strong>.
+      Importez vos opérations bancaires : Tit<span class="brand-name-accent">o</span> les ventile automatiquement et génère vos livrables officiels en un clic.
     </p>
+
+    <div class="hero-deliverables-row" aria-label="Livrables comptables générés">
+      <span>Grand-livre</span>
+      <span class="deliverable-dot" aria-hidden="true">•</span>
+      <span>Livre-journal</span>
+      <span class="deliverable-dot" aria-hidden="true">•</span>
+      <span>Fichier FEC</span>
+      <span class="deliverable-dot" aria-hidden="true">•</span>
+      <span>Liasse 2035 & 2072</span>
+      <span class="deliverable-dot" aria-hidden="true">•</span>
+      <span>Reçus Cerfa</span>
+    </div>
 
     <div class="hero-cta-group">
       <a href="#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
-      <a href="#les-3-gestes" class="btn btn-outline-white btn-lg">Comprendre le principe en 30 sec &darr;</a>
+      <a href="#les-3-gestes" class="btn btn-outline-white btn-lg">Découvrez Tito en 30 sec</a>
     </div>
 
     <!-- <p class="hero-guarantee-note">
@@ -144,30 +186,15 @@
     </p> -->
 
     <div class="hero-trust-list-blue">
-      <div class="hero-trust-item-blue">
-        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
-        <span>Micro-entreprise</span>
-      </div>
-      <div class="hero-trust-item-blue">
-        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
-        <span>Association 1901</span>
-      </div>
-      <div class="hero-trust-item-blue">
-        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
-        <span>Société / TPE</span>
-      </div>
-      <div class="hero-trust-item-blue">
-        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
-        <span>Libéral BNC</span>
-      </div>
-      <div class="hero-trust-item-blue">
-        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
-        <span>SCI Familiale</span>
-      </div>
-      <div class="hero-trust-item-blue">
-        <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> -->
-        <span>Copropriété bénévole</span>
-      </div>
+      {#each pillars as pillar}
+        <a
+          href="#cartes-structures"
+          class="hero-trust-item-blue {selectedPillarId === pillar.id ? 'is-active' : ''}"
+          onclick={(e) => selectPillar(e, pillar.id)}
+        >
+          <span>{pillar.pillLabel}</span>
+        </a>
+      {/each}
     </div>
 
     <!-- PREUVE VISUELLE : COMMENT TITO TE PARLE VRAIMENT -->
@@ -308,9 +335,12 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
       </p>
     </div>
 
-    <div class="grid-3">
+    <div class="grid-3" id="cartes-structures">
       {#each pillars as pillar}
-        <article class="pillar-card-dark">
+        <article
+          id={pillar.id}
+          class="pillar-card-dark {selectedPillarId === pillar.id ? 'pillar-card-highlighted' : ''}"
+        >
           <span class="badge pillar-card-tag">
             {pillar.tag}
           </span>
@@ -532,7 +562,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
               <rect x="3" y="11" width="18" height="11" rx="3"/>
               <path d="M7 11V7a5 5 0 0 1 10 0"/>
               <circle cx="12" cy="16.5" r="1.5" fill="#fbbf24"/>
-              <path d="M12 18v2"/>
+              <path d="M12 18v2"/>  
             </svg>
           </div>
           <div class="trial-custom-col-title">Liberté totale</div>
