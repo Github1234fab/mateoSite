@@ -2085,6 +2085,516 @@
   padding-bottom: 88px;
 }
 
+/* =========================================================
+   FICHES MÉTIERS DYNAMIQUES & PÉDAGOGIQUES (/pour/[slug] & /metiers)
+   ========================================================= */
+
+.metier-hero-dark {
+  background: linear-gradient(180deg, #070d19 0%, #0f172a 55%, #162032 100%);
+  color: #ffffff;
+  padding: 64px 0 80px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.metier-hero-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 860px;
+  height: 400px;
+  background: radial-gradient(ellipse at top, rgba(6, 182, 212, 0.2) 0%, rgba(37, 99, 235, 0.1) 45%, rgba(15, 23, 42, 0) 70%);
+  pointer-events: none;
+}
+
+.breadcrumb-dark {
+  color: #64748b;
+}
+
+.breadcrumb-link-dark {
+  color: #94a3b8;
+  transition: color var(--transition-fast);
+}
+
+.breadcrumb-link-dark:hover {
+  color: #38bdf8;
+}
+
+.breadcrumb-current-dark {
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+.metier-hero-badges {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.metier-status-pill {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.metier-hero-title {
+  color: #ffffff;
+  max-width: 880px;
+  margin-bottom: 18px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.18;
+}
+
+.metier-hero-tagline {
+  color: #cbd5e1;
+  font-size: 1.18rem;
+  max-width: 760px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.metier-quick-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.metier-kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.metier-kpi-card {
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  border-radius: var(--radius-lg);
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.4);
+}
+
+.metier-kpi-label {
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #38bdf8;
+}
+
+.metier-kpi-val {
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: #f8fafc;
+  line-height: 1.4;
+}
+
+/* Section claire structurée */
+.metier-section-light {
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Cartes Obligations (Quoi / Quand / Pourquoi / Tito) */
+.obligation-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-xl);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 24px -12px rgba(15, 23, 42, 0.06);
+  transition: all var(--transition-fast);
+}
+
+.obligation-card:hover {
+  transform: translateY(-4px);
+  border-color: #93c5fd;
+  box-shadow: 0 16px 32px -12px rgba(37, 99, 235, 0.12);
+}
+
+.obligation-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.obligation-step-num {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #2563eb;
+  background: #eff6ff;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+}
+
+.obligation-freq-badge {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #475569;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+}
+
+.obligation-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--color-navy);
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+
+.obligation-block {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.obligation-block-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.obligation-block-text {
+  font-size: 0.94rem;
+  color: #334155;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.obligation-tito-box {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  margin-top: auto;
+}
+
+.obligation-tito-tag {
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #38bdf8;
+  margin-bottom: 6px;
+}
+
+.obligation-tito-text {
+  font-size: 0.88rem;
+  color: #f1f5f9;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Démo interactive des pilules Tito dans la fiche métier */
+.charges-cards-grid {
+  margin-bottom: 56px;
+}
+
+.metier-live-demo-wrap {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.metier-demo-header-text {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.metier-demo-header-text h3 {
+  color: #ffffff;
+  font-size: 1.55rem;
+  font-weight: 800;
+  margin: 14px 0 8px 0;
+}
+
+.metier-demo-header-text p {
+  color: #94a3b8;
+  font-size: 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.mockup-oneclick-btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all var(--transition-fast);
+}
+
+.mockup-oneclick-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(6, 182, 212, 0.55);
+}
+
+.mockup-oneclick-btn.is-validated {
+  background: rgba(16, 185, 129, 0.2);
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  color: #34d399;
+  box-shadow: none;
+}
+
+/* Grille 2 colonnes Frais & Seuils */
+.metier-dual-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 32px;
+  align-items: stretch;
+}
+
+.metier-frais-box,
+.metier-seuils-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-xl);
+  padding: 32px 28px;
+  box-shadow: 0 8px 24px -12px rgba(15, 23, 42, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.metier-box-header {
+  margin-bottom: 24px;
+}
+
+.metier-box-header h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--color-navy);
+  margin: 12px 0 8px 0;
+}
+
+.metier-box-header p {
+  font-size: 0.94rem;
+  color: #475569;
+  margin: 0;
+}
+
+.metier-expense-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.metier-expense-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.metier-pain-mini-list {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  margin-top: auto;
+}
+
+.metier-pain-mini-list h4 {
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #1d4ed8;
+  margin: 0 0 10px 0;
+}
+
+.metier-pain-mini-item {
+  font-size: 0.88rem;
+  color: #1e293b;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.metier-pain-mini-item:last-child {
+  margin-bottom: 0;
+}
+
+.seuil-alert-card {
+  background: #0f172a;
+  color: #ffffff;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  margin-bottom: 18px;
+}
+
+.seuil-alert-card:last-child {
+  margin-bottom: 0;
+}
+
+.seuil-alert-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.seuil-tag {
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.14);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+}
+
+.seuil-amount {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.seuil-sub-limit {
+  font-size: 0.86rem;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.seuil-sub-limit strong {
+  color: #e2e8f0;
+}
+
+.seuil-consequence {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  line-height: 1.55;
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.seuil-consequence strong {
+  color: #ffffff;
+}
+
+/* Section Références Officielles */
+.metier-references-section {
+  background: linear-gradient(180deg, #0b1324 0%, #0f172a 100%);
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.reference-card-dark {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-xl);
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reference-source-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #22d3ee;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.reference-code-title {
+  font-size: 1.12rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.reference-detail-text {
+  font-size: 0.92rem;
+  color: #94a3b8;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.metier-parent-link {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.metier-parent-link:hover {
+  text-decoration: underline;
+}
+
+/* Page annuaire /metiers */
+.metiers-search-bar-dark {
+  max-width: 560px;
+}
+
+.metier-directory-card .metier-card-mini-kpis {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.metier-directory-card .metier-card-mini-kpis strong {
+  color: var(--color-navy);
+}
+
+.metier-card-btn {
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (max-width: 1024px) {
+  .metier-kpi-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .metier-dual-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 900px) {
   .stepper-track {
     grid-template-columns: 1fr;
@@ -2103,6 +2613,9 @@
 }
 
 @media (max-width: 600px) {
+  .metier-kpi-strip {
+    grid-template-columns: 1fr;
+  }
   .metiers-directory-list {
     grid-template-columns: 1fr;
   }

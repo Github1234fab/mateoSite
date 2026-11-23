@@ -98,19 +98,19 @@
   const homeFaq = [
     {
       q: "Mon niveau en compta est proche de zéro. Est-ce que je vais vraiment m'en sortir ?",
-      a: "Oui, c'est exactement pour toi que Tito existe. Tu n'as aucun numéro de compte comptable à connaître. Tito te parle en français courant (« Pour ton statut, voici ce qu'on te demande », « Clique ici pour ranger cette dépense ») et t'explique le pourquoi en une phrase simple."
+      a: "Oui, c'est exactement pour vous que Tito existe. Vous n'avez aucun numéro de compte comptable à connaître. Tito parle en français courant. Pour votre statut, voici ce qu'il vous demande: « Clique ici pour ranger cette dépense » et il explique même pourquoi en une phrase simple."
     },
     {
-      q: "Pourquoi un tarif unique à 8,99 €/mois alors que les autres ont 3 ou 4 formules ?",
-      a: "Parce que tu n'as pas de temps à perdre à décrypter un tableau comparatif pour savoir si tu as droit à telle ou telle option. Chez Tito, tout est inclus pour moins de 110 € par an. Tu indiques ton statut, Tito s'adapte, et basta."
+      q: "Pourquoi un tarif unique à 6,99 €/mois ?",
+      a: "Parce que Tito estime que vous n'avez pas de temps à perdre à décrypter un tableau comparatif pour savoir si vous avez droit à telle ou telle option. Chez Tito, tout est inclus pour 80 € par an. Vous indiquez votre statut, Tito s'adapte."
     },
     {
-      q: "Est-ce que je reste 100 % dans les clous vis-à-vis de l'URSSAF, des impôts ou de mon comptable ?",
+      q: "Est-ce que je reste 100 % conforme vis-à-vis de l'URSSAF, des impôts ou de mon comptable ?",
       a: "À 100 %. Derrière son interface ultra-simple, Tito applique rigoureusement les règles officielles (livre des recettes DGFiP, catégories BNC 2035, Loi 1901 et exports standards pour l'expert-comptable)."
     },
     {
-      q: "Que se passe-t-il après les 30 jours d'essai gratuit ?",
-      a: "Zéro piège : on ne te demande pas ta carte bancaire pour essayer. Au bout de 30 jours, si Tito te fait gagner un temps précieux, tu t'abonnes à 8,99 €/mois sans engagement. Sinon, tu récupères tes exports en 1 clic."
+      q: "Que se passe-t-il après le relevé d'essai gratuit ?",
+      a: "Zéro piège : Tito ne vous demande pas votre carte bancaire pour essayer. Vous importez un premier relevé bancaire (jusqu'à 60 écritures) pour voir la catégorisation automatique et la conformité en action. Si Tito vous fait gagner du temps, vous passez en un clic à la formule Illimitée à 6,99 €/mois (ou 69,90 €/an)."
     }
   ];
 
@@ -144,7 +144,7 @@
 <svelte:head>
   <title>Tito — La gestion sans jargon</title>
   <meta name="description" content="La compta démystifiée en 3 gestes simples. Donne 98 % de ton temps à ton métier et ta passion, Tito s'occupe des 2 % restants pour un tarif unique." />
-  <link rel="canonical" href="https://tito.fr" />
+  <link rel="canonical" href="https://tito-gestion.com" />
 </svelte:head>
 
 <!-- 1. HERO (FOND BLEU MARINE) : IMPACTANT, JEUNE & DÉMYSTIFIANT -->
@@ -366,7 +366,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
       <div class="manifesto-left">
         <span class="badge badge-pill">Une gestion du temps maîtrisée</span>
         <h2 class="manifesto-title">
-          Donnez 98 % de votre énergie à votre <span class="hero-highlight">métier</span>. Laissez Tito s'occuper des 2 % restants pour gérer votre <span class="hero-highlight">comptabilité</span>.
+          98 % de votre temps consacré à votre <span class="hero-highlight">métier</span>. 2 % avec Tito pour gérer votre <span class="hero-highlight">comptabilité</span>.
         </h2>
         <p class="manifesto-desc">
           Enfin un logiciel de gestion comptable clair, simple et pédagogique. Tito vous fait gagner du temps et de l'argent.
@@ -405,11 +405,11 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
         <div class="single-price-Title">Tout Tito. Sans options cachées.</div>
 
         <div class="single-price-amount-row">
-          <span class="single-price-number">8,99 €</span>
+          <span class="single-price-number">6,99 €</span>
           <span class="single-price-period">/ mois</span>
         </div>
         <div class="single-price-yearly">
-          Soit ~100 € sur l'année • Rentabilisé dès la 1re semaine
+          Soit ~83 € sur l'année • Rentabilisé dès la 1re semaine
         </div>
 
         <ul class="single-price-features">
@@ -435,11 +435,11 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
           </li>
         </ul>
 
-        <a href="https://app.tito.fr" class="btn btn-primary btn-lg single-price-cta" target="_blank" rel="noopener">
-          Essayer gratuitement pendant 30 jours &rarr;
+        <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg single-price-cta" target="_blank" rel="noopener">
+          Essayer gratuitement sur un 1er relevé &rarr;
         </a>
         <div class="single-price-note">
-          Sans carte bancaire • Sans engagement
+          Sans carte bancaire • Jusqu'à 60 écritures offertes
         </div>
       </div>
     </div>
@@ -451,7 +451,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
   <div class="container">
     <div class="section-header">
       <span class="badge badge-beta">Fiches métiers sans jargon</span>
-      <h2 class="section-pillars-title">Vous n'êtes pas sûr des obligations de votre forme juridique ? Consultez votre fiche métier.</h2>
+      <h2 class="section-pillars-title">Vous n'êtes pas sûr des obligations de votre forme juridique ? Consultez nos fiches métier.</h2>
       <p class="section-pillars-sub">
         Seuils URSSAF, TVA, documents officiels: consultez votre fiche métier, et découvrez comment Tito vous accompagne au quotidien.
       </p>
@@ -516,14 +516,14 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
 <section class="section trial-section-dark" id="essai-gratuit">
   <div class="container">
     <div class="trial-custom-card">
-      <span class="trial-custom-badge">30 JOURS D'ESSAI OFFERT • SANS CARTE BANCAIRE</span>
+      <span class="trial-custom-badge">1ER RELEVÉ OFFERT (60 ÉCRITURES) • SANS CARTE BANCAIRE</span>
 
       <h2 class="trial-custom-title">
-      Testez l'esprit libre,<br> décidez plus tard
+      Testez Tito l'esprit libre,<br> vous décidez plus tard
       </h2>
 
       <p class="trial-custom-subtitle">
-       importez, Tito range, Tito explique et vous êtes serein, toute l'année.
+       Vous importez, Tito range, Tito explique et vous êtes serein, toute l'année.
       </p>
 
       <div class="trial-custom-grid">
@@ -537,7 +537,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
           </div>
           <div class="trial-custom-col-title">2 minutes Chrono</div>
           <p class="trial-custom-col-desc">
-          Choisissez votre statut juridique, importez votre CSV bancaire et laissez la magie opérer en quelques secondes.
+          Choisissez votre statut juridique, importez votre CSV bancaire et laissez la magie opérer.
           </p>
         </div>
 
@@ -552,7 +552,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
           </div>
           <div class="trial-custom-col-title">Simplicité et tranquilité</div>
           <p class="trial-custom-col-desc">
-          Tito classe, range et vous comprenez tout ce qu'il fait grâce à des infosbulles.
+          Tito classe, range et vous explique tout ce qu'il fait.
           </p>
         </div>
 
@@ -566,14 +566,13 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
             </svg>
           </div>
           <div class="trial-custom-col-title">Liberté totale</div>
-          <p class="trial-custom-col-desc">
-           Vous testez 30 jours gratuitement, puis 8,99 €/mois si vous restez. Vous résiliez en un clic dès que vous le souhaitez..
-          </p>
+          <p class="trial-custom-col-desc"> 
+           Vous testez gratuitement votre 1er relevé (jusqu'à 60 écritures), puis 6,99 €/mois pour la gestion illimitée. </p>
         </div>
       </div>
 
       <div class="trial-custom-action-wrap">
-        <a href="https://app.tito.fr" class="trial-custom-cta-btn" target="_blank" rel="noopener">
+        <a href="https://app.tito-gestion.com" class="trial-custom-cta-btn" target="_blank" rel="noopener">
           Créer mon compte et essayer Tito &rarr;
         </a>
       </div>
@@ -581,7 +580,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
       <div class="trial-custom-trust-row">
         <span>Sans carte bancaire</span>
         <span class="trial-custom-dot">•</span>
-        <span>Tarif unique 8,99 €/mois</span>
+        <span>Tarif unique 6,99 €/mois</span>
         <span class="trial-custom-dot">•</span>
         <span>Résiliable en 1 clic</span>
       </div>

@@ -7,11 +7,11 @@
 <svelte:head>
   <title>{solution.seoTitle}</title>
   <meta name="description" content={solution.metaDescription} />
-  <link rel="canonical" href="https://tito.fr/solutions/{solution.slug}" />
+  <link rel="canonical" href="https://tito-gestion.com/solutions/{solution.slug}" />
   <meta property="og:title" content={solution.seoTitle} />
   <meta property="og:description" content={solution.metaDescription} />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://tito.fr/solutions/{solution.slug}" />
+  <meta property="og:url" content="https://tito-gestion.com/solutions/{solution.slug}" />
 </svelte:head>
 
 <!-- HERO SOLUTION -->
@@ -126,7 +126,7 @@
     <div class="cta-banner">
       <h2>Prêt à passer sur Tito pour votre structure ?</h2>
       <p>
-        Profitez d'un mois d'essai gratuit, sécurisé et sans engagement. Aucune carte bancaire requise.
+        Testez gratuitement Tito sur votre premier relevé bancaire (jusqu'à 60 écritures). Sans carte bancaire et sans engagement.
       </p>
       <div class="hero-cta-group">
         <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>

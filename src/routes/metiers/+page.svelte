@@ -5,49 +5,50 @@
   let filteredMetiers = $derived(
     data.metiers.filter(m => 
       m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      m.category.toLowerCase().includes(searchQuery.toLowerCase())
+      m.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (m.statusLabel && m.statusLabel.toLowerCase().includes(searchQuery.toLowerCase()))
     )
   );
 </script>
 
 <svelte:head>
-  <title>Tous nos guides comptables par Métier & Activité | Tito</title>
-  <meta name="description" content="Explorez nos guides pratiques et solutions comptables adaptées à votre profession : consultants, artisans, photographes, graphistes, coachs et associations." />
-  <link rel="canonical" href="https://tito.fr/metiers" />
+  <title>Fiches Métiers : Obligations, Charges, Frais & Seuils | Tito</title>
+  <meta name="description" content="Consultez les règles comptables factuelles de votre profession : obligations légales, charges URSSAF/caisses, frais déductibles, seuils de TVA et références officielles." />
+  <link rel="canonical" href="https://tito-gestion.com/metiers" />
 </svelte:head>
 
-<section class="pseo-hero">
+<section class="metier-hero-dark">
   <div class="container">
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
-      <a href="/" class="breadcrumb-link">Accueil</a>
+    <nav class="breadcrumb breadcrumb-dark" aria-label="Fil d'Ariane">
+      <a href="/" class="breadcrumb-link-dark">Accueil</a>
       <span>/</span>
-      <span class="breadcrumb-current">Métiers</span>
+      <span class="breadcrumb-current-dark">Fiches métiers</span>
     </nav>
 
-    <div class="hero-badge-wrap">
-      <span class="badge badge-beta">Guides Pratiques Métiers</span>
+    <div class="metier-hero-badges">
+      <span class="badge badge-beta">GUIDES FACTUELS • ZÉRO LANGUE DE BOIS</span>
     </div>
 
-    <h1 class="hero-title pseo-hero-title">
-      La comptabilité expliquée selon votre métier
+    <h1 class="hero-title metier-hero-title">
+      Quoi déclarer, combien payer et quels frais déduire selon votre métier
     </h1>
 
-    <p class="pseo-tagline">
-      Chaque profession a ses charges types, ses seuils URSSAF et ses particularités de TVA. Trouvez le guide adapté à votre activité.
+    <p class="metier-hero-tagline">
+      Obligations de clôture, formulaires Cerfa/2035, cotisations, seuils de TVA et textes de loi : choisissez votre profession pour voir vos règles exactes.
     </p>
 
-    <div class="tester-input-group search-input-wrap">
+    <div class="metiers-search-bar-dark">
       <input 
         type="search" 
         bind:value={searchQuery}
-        placeholder="Rechercher votre métier (ex: consultant, artisan...)"
-        class="tester-input search-input-light"
+        placeholder="Rechercher votre métier (ex : consultant, kiné, infirmière, artisan, club...)"
+        class="tester-input"
       />
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section metier-section-light">
   <div class="container">
     {#if filteredMetiers.length === 0}
       <div class="text-center">
@@ -56,12 +57,30 @@
     {:else}
       <div class="grid-3">
         {#each filteredMetiers as m}
-          <article class="card">
-            <span class="badge card-tag">{m.category}</span>
-            <h2 class="card-title card-title-md">{m.name}</h2>
+          <article class="obligation-card metier-directory-card">
+            <div class="obligation-card-top">
+              <span class="badge badge-pill">{m.category}</span>
+              {#if m.statusLabel}
+                <span class="obligation-freq-badge">{m.statusLabel}</span>
+              {/if}
+            </div>
+
+            <h2 class="obligation-title">{m.name}</h2>
             <p class="card-desc">{m.tagline}</p>
-            <a href="/pour/{m.slug}" class="card-link">
-              <span>Voir le guide et les règles {m.name}</span>
+
+            <div class="metier-card-mini-kpis">
+              <div>
+                <span>Charges :</span>
+                <strong>{m.urssafTips.tauxCotisations}</strong>
+              </div>
+              <div>
+                <span>Seuil TVA :</span>
+                <strong>{m.urssafTips.seuilFranchiseTVA}</strong>
+              </div>
+            </div>
+
+            <a href="/pour/{m.slug}" class="btn btn-primary metier-card-btn">
+              <span>Voir la fiche {m.name}</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
             </a>
           </article>

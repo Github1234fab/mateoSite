@@ -24,7 +24,7 @@ export const SOLUTIONS = {
       "Import bancaire universel en format CSV",
       "Pointage et lettrage automatique des factures",
       "Gestion des encaissements mixtes (Vente + Prestations)",
-      "Export PDF et Excel certifié pour l'administration fiscale"
+      "Export PDF et Excel conforme pour l'administration fiscale"
     ]
   },
   "professions-liberales": {

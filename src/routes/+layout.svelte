@@ -25,7 +25,7 @@
     </nav>
 
     <div class="header-actions">
-      <a href="https://app.tito.fr" class="btn btn-ghost" target="_blank" rel="noopener">Connexion</a>
+      <a href="https://app.tito-gestion.com" class="btn btn-ghost" target="_blank" rel="noopener">Connexion</a>
       <a href="/#essai-gratuit" class="btn btn-primary btn-header-cta">Essayer gratuitement</a>
     </div>
   </div>
@@ -86,6 +86,7 @@
     <div class="footer-bottom">
       <div>© 2026 Tito. Tous droits réservés. Conçu en France pour les entrepreneurs, libéraux et bénévoles.</div>
       <div class="footer-legal-links">
+        <a href="/cgu" class="footer-link">CGU</a>
         <a href="/mentions-legales" class="footer-link">Mentions légales</a>
         <a href="/confidentialite" class="footer-link">Politique de confidentialité</a>
       </div>
