@@ -381,7 +381,7 @@
   </section>
 {/if}
 
-<!-- 7. CTA FINAL BLEU MARINE (TARIF UNIQUE 6,99 €/MOIS) -->
+<!-- 7. CTA FINAL BLEU MARINE (TARIF UNIQUE 69,90 €/AN) -->
 <section class="section trial-section-dark">
   <div class="container">
     <div class="trial-custom-card">
@@ -404,7 +404,7 @@
       <div class="trial-custom-trust-row">
         <span>Sans carte bancaire</span>
         <span class="trial-custom-dot">•</span>
-        <span>Tarif unique 6,99 €/mois</span>
+        <span>Tarif unique 69,90 €/an (5,82 €/mois)</span>
         <span class="trial-custom-dot">•</span>
         <a href={parentSolution.url} class="metier-parent-link">Voir aussi l'espace {parentSolution.name} &rarr;</a>
       </div>

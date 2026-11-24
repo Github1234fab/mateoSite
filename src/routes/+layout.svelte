@@ -18,7 +18,7 @@
     </a>
 
     <nav class="nav-links" aria-label="Navigation principale">
-      <a href="/#les-3-gestes" class="nav-link">Les 3 gestes</a>
+      <a href="/#les-3-gestes" class="nav-link">En 3 actions</a>
       <a href="/#solutions" class="nav-link">Selon votre statut</a>
       <a href="/metiers" class="nav-link">Obligations par métier</a>
       <a href="/#tarif" class="nav-link">Tarif unique</a>
@@ -46,7 +46,7 @@
           <span class="brand-name footer-brand-name">Ti<span class="brand-name-accent">t</span>o</span>
         </a>
         <p class="footer-desc">
-          La compta sans jargon, en 3 gestes simples. Consacrez 98 % de votre temps à votre métier, Tito s'occupe des 2 % restants., Tito s'occupe des 2 % restants.
+          La compta sans jargon, en 3 actions simples. Consacrez 98 % de votre temps à votre métier, Tito s'occupe des 2 % restants., Tito s'occupe des 2 % restants.
         </p>
       
       </div>

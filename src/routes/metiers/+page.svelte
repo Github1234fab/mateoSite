@@ -30,21 +30,21 @@
     </div>
 
     <h1 class="hero-title metier-hero-title">
-      Quoi déclarer, combien payer et quels frais déduire selon votre métier
+      Quoi déclarer, combien payer et quels frais déduire selon votre métier ?
     </h1>
 
     <p class="metier-hero-tagline">
       Obligations de clôture, formulaires Cerfa/2035, cotisations, seuils de TVA et textes de loi : choisissez votre profession pour voir vos règles exactes.
     </p>
 
-    <div class="metiers-search-bar-dark">
+    <!-- <div class="metiers-search-bar-dark">
       <input 
         type="search" 
         bind:value={searchQuery}
         placeholder="Rechercher votre métier (ex : consultant, kiné, infirmière, artisan, club...)"
         class="tester-input"
       />
-    </div>
+    </div> -->
   </div>
 </section>
 

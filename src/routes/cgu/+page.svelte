@@ -18,7 +18,7 @@
         Conditions Générales d'Utilisation (CGU)
       </h1>
       <p style="color: #64748b; font-size: 0.95rem;">
-        Dernière mise à jour : 12 novembre 2026 • Version 1.2
+        Dernière mise à jour : 23 novembre 2026 • Version 2.0
       </p>
     </div>
 
@@ -109,27 +109,86 @@
         <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 8px; margin: 12px 0;">
           <li><strong>Propriété des données :</strong> L'Utilisateur reste l'unique propriétaire de l'ensemble des données financières et comptables importées ou saisies sur la plateforme.</li>
           <li><strong>Confidentialité stricte :</strong> Aucune donnée bancaire ou comptable n'est cédée, louée ou vendue à des tiers, ni utilisée à des fins publicitaires.</li>
-          <li><strong>Hébergement sécurisé :</strong> Les données sont chiffrées en transit et au repos au sein de serveurs sécurisés situés dans l'Union Européenne.</li>
+          <li><strong>Hébergement sécurisé :</strong> Les données sont chiffrées et hébergées principalement au sein de l'Union Européenne, avec encadrement RGPD (Clauses Contractuelles Types / Data Privacy Framework) pour les sous-traitants techniques.</li>
         </ul>
       </div>
 
       <!-- Article 6 -->
       <div>
         <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
-          Article 6. Tarification, Abonnement & Résiliation
+          Article 6. Éditeur du Service & Mentions Légales (LCEN)
         </h2>
         <p>
-          L'accès au Service s'effectue selon les conditions tarifaires en vigueur présentées sur le site. Les abonnements payants sont sans engagement de durée sauf mention expresse contraire, et peuvent être résiliés à tout moment directement depuis l'espace utilisateur. En cas de résiliation, l'Utilisateur conserve la possibilité d'exporter l'intégralité de ses écritures et registres avant la clôture définitive de son accès.
+          Conformément à l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), la plateforme Tito (<strong>tito-gestion.com</strong> et <strong>app.tito-gestion.com</strong>) est éditée par :
         </p>
+        <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 6px; margin: 12px 0;">
+          <li><strong>Éditeur :</strong> Fabien Marceau, Entrepreneur Individuel (Micro-entreprise)</li>
+          <li><strong>Adresse professionnelle :</strong> 336, chemin du julin</li>
+          <li><strong>Numéro SIRET :</strong> 51829633000039</li>
+          <li><strong>Contact :</strong> contact@gralypho.com</li>
+          <li><strong>Hébergement de l'application :</strong> Netlify, Inc. (512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis)</li>
+          <li><strong>Hébergement des données :</strong> Google Cloud / Firebase (Union Européenne), encadré par les Clauses Contractuelles Types (CCT) et le EU-US Data Privacy Framework.</li>
+        </ul>
       </div>
 
       <!-- Article 7 -->
       <div>
         <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
-          Article 7. Droit applicable et Litiges
+          Article 7. Conditions Financières, Abonnement & Résiliation
         </h2>
         <p>
-          Les présentes CGU sont régies par le droit français. En cas de litige relatif à l'interprétation ou à l'exécution des présentes, les parties s'engagent à rechercher préalablement une solution amiable. À défaut, les tribunaux compétents du ressort du siège social de l'Éditeur seront seuls compétents.
+          L'accès aux fonctionnalités complètes de la plateforme est soumis à la souscription d'un abonnement payant selon les tarifs en vigueur affichés lors de la commande, géré via le prestataire de paiement sécurisé Stripe.
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Reconduction et résiliation :</strong> Sauf mention contraire, l'abonnement est reconduit tacitement pour une durée identique. L'Utilisateur peut résilier son abonnement à tout moment en un clic depuis son espace client (portail Stripe). La résiliation prend effet à l'échéance de la période déjà payée, sans remboursement prorata temporis.
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Droit de rétractation :</strong> Conformément à l'article L. 221-28 du Code de la consommation, l'Utilisateur agissant en qualité de non-professionnel (notamment association ou syndicat coopératif de copropriété) qui demande l'exécution immédiate du service numérique avant l'expiration du délai légal de 14 jours renonce expressément à son droit de rétractation.
+        </p>
+      </div>
+
+      <!-- Article 8 -->
+      <div>
+        <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
+          Article 8. Fermeture de Compte, Portabilité & Suppression des Données
+        </h2>
+        <p>
+          À l'échéance d'un abonnement résilié ou non renouvelé, l'accès au compte est fermé et l'Utilisateur ne peut plus importer de nouveaux relevés ni générer de documents.
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Remise d'archive (Portabilité) :</strong> Au moment de la clôture effective de l'abonnement, une archive numérique (format ZIP) regroupant l'intégralité des exports légaux générés (FEC, Grand-Livre, Balance et registres) est mise à la disposition de l'Utilisateur.
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Sobriété numérique :</strong> Afin de limiter l'empreinte environnementale des serveurs et de garantir la confidentialité des données financières, les écritures, paramètres et dictionnaires d'attribution des comptes fermés sont définitivement supprimés après remise de l'archive. L'Utilisateur demeure seul responsable de la sauvegarde locale de cette archive sur la durée légale de 10 ans.
+        </p>
+      </div>
+
+      <!-- Article 9 -->
+      <div>
+        <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
+          Article 9. Disponibilité & Limitation de Responsabilité
+        </h2>
+        <p>
+          L'Éditeur s'engage à mettre en œuvre tous les moyens raisonnables pour assurer l'accessibilité et le bon fonctionnement de la plateforme (obligation de moyens), sous réserve des opérations de maintenance technique, mises à jour ou pannes liées aux réseaux de télécommunication et hébergeurs tiers.
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Exclusion des dommages indirects :</strong> L'Éditeur ne saurait en aucun cas être tenu responsable des conséquences financières, fiscales, comptables ou juridiques résultant des écritures validées par l'Utilisateur, d'un retard déclaratif, d'un redressement fiscal ou d'une perte d'exploitation.
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Plafond de responsabilité :</strong> En tout état de cause, si la responsabilité de l'Éditeur venait à être engagée, le montant total des indemnités ne pourra excéder le montant des sommes effectivement versées par l'Utilisateur au titre de son abonnement au cours des douze (12) derniers mois précédant le fait générateur.
+        </p>
+      </div>
+
+      <!-- Article 10 -->
+      <div>
+        <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
+          Article 10. Propriété Intellectuelle & Droit Applicable
+        </h2>
+        <p>
+          La marque verbale TITO (déposée auprès de l'INPI), l'architecture logicielle, le code source, les algorithmes d'attribution, les textes et l'interface graphique sont la propriété exclusive de l'Éditeur. L'abonnement confère à l'Utilisateur un droit d'utilisation personnel, non exclusif et non cessible du logiciel, à l'exclusion de toute reproduction, extraction ou rétro-ingénierie.
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Droit applicable et juridiction :</strong> Les présentes CGU sont régies par le droit français. À défaut de résolution amiable, tout litige relatif à leur interprétation ou leur exécution relève de la compétence exclusive des tribunaux du ressort de Lyon (sous réserve des règles d'ordre public applicables aux non-professionnels).
         </p>
       </div>
 

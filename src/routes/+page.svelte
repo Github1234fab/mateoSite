@@ -90,7 +90,7 @@
     {
       num: "3",
       title: "Vous générez vos registres et clôturez",
-      desc: "Grand-livre, Livre-journal, Livre des recettes, export FEC, liasse 2035/2072 ou Cerfa : sortez vos pièces officielles et clôturez en un clic.",
+      desc: "Grand-livre, Livre-journal, Livre des recettes, export FEC, liasse 2035/2072 ou Cerfa : vous pouvez extraire vos pièces officielles et clôturez en un clic.",
       badge: "Prêt à déclarer"
     }
   ];
@@ -101,8 +101,8 @@
       a: "Oui, c'est exactement pour vous que Tito existe. Vous n'avez aucun numéro de compte comptable à connaître. Tito parle en français courant. Pour votre statut, voici ce qu'il vous demande: « Clique ici pour ranger cette dépense » et il explique même pourquoi en une phrase simple."
     },
     {
-      q: "Pourquoi un tarif unique à 6,99 €/mois ?",
-      a: "Parce que Tito estime que vous n'avez pas de temps à perdre à décrypter un tableau comparatif pour savoir si vous avez droit à telle ou telle option. Chez Tito, tout est inclus pour 80 € par an. Vous indiquez votre statut, Tito s'adapte."
+      q: "Pourquoi un tarif unique à 5,82 €/mois ?",
+      a: "Parce que Tito estime que vous n'avez pas de temps à perdre à décrypter un tableau comparatif pour savoir si vous avez droit à telle ou telle option. Chez Tito, tout est inclus pour 69,90 € par an (soit 5,82 €/mois, avec option 3x ou 4x sans frais). Vous indiquez votre statut, Tito s'adapte."
     },
     {
       q: "Est-ce que je reste 100 % conforme vis-à-vis de l'URSSAF, des impôts ou de mon comptable ?",
@@ -110,7 +110,7 @@
     },
     {
       q: "Que se passe-t-il après le relevé d'essai gratuit ?",
-      a: "Zéro piège : Tito ne vous demande pas votre carte bancaire pour essayer. Vous importez un premier relevé bancaire (jusqu'à 60 écritures) pour voir la catégorisation automatique et la conformité en action. Si Tito vous fait gagner du temps, vous passez en un clic à la formule Illimitée à 6,99 €/mois (ou 69,90 €/an)."
+      a: "Zéro piège : Tito ne vous demande pas votre carte bancaire pour essayer. Vous importez un premier relevé bancaire (jusqu'à 60 écritures) pour voir la catégorisation automatique et la conformité en action. Si Tito vous fait gagner du temps, vous passez en un clic à la formule Illimitée annuelle à 69,90 €/an (soit 5,82 €/mois)."
     }
   ];
 
@@ -300,7 +300,7 @@
 <section class="how-it-works-section" id="les-3-gestes">
   <div class="container">
     <div class="section-header">
-      <span class="badge badge-pill">LE PRINCIPE EN 3 GESTES</span>
+      <span class="badge badge-pill">LE PRINCIPE EN 3 ACTIONS</span>
       <h2 class="section-title-center">De votre relevé bancaire à la clôture, tout est automatisé.</h2>
       <p class="section-subtitle">
         Aucun numéro de compte à connaître, aucune saisie ligne par ligne : Tito transforme vos flux bancaires en documents comptables officiels.
@@ -405,11 +405,11 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
         <div class="single-price-Title">Tout Tito. Sans options cachées.</div>
 
         <div class="single-price-amount-row">
-          <span class="single-price-number">6,99 €</span>
+          <span class="single-price-number">5,82 €</span>
           <span class="single-price-period">/ mois</span>
         </div>
         <div class="single-price-yearly">
-          Soit ~83 € sur l'année • Rentabilisé dès la 1re semaine
+          Facturé 69,90 € / an TTC • Option 3x ou 4x sans frais • Rentabilisé dès la 1re semaine
         </div>
 
         <ul class="single-price-features">
@@ -567,7 +567,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
           </div>
           <div class="trial-custom-col-title">Liberté totale</div>
           <p class="trial-custom-col-desc"> 
-           Vous testez gratuitement votre 1er relevé (jusqu'à 60 écritures), puis 6,99 €/mois pour la gestion illimitée. </p>
+           Vous testez gratuitement votre 1er relevé (jusqu'à 60 écritures), puis 5,82 €/mois (69,90 €/an) pour la gestion illimitée. </p>
         </div>
       </div>
 
@@ -580,9 +580,9 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
       <div class="trial-custom-trust-row">
         <span>Sans carte bancaire</span>
         <span class="trial-custom-dot">•</span>
-        <span>Tarif unique 6,99 €/mois</span>
+        <span>Tarif unique 69,90 €/an (5,82 €/mois)</span>
         <span class="trial-custom-dot">•</span>
-        <span>Résiliable en 1 clic</span>
+        <span>Paiement en 3x ou 4x sans frais</span>
       </div>
     </div>
   </div>
