@@ -58,7 +58,7 @@
 
       <div>
         <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">5. Localisation & Sécurité</h2>
-        <p>Les serveurs et bases de données utilisés par Tito sont situés exclusivement au sein de l'Union Européenne (Région Europe de l'Ouest). Toutes les communications sont chiffrées selon le protocole TLS 1.3 et les données au repos bénéficient d'un chiffrement AES-256.</p>
+        <p>Les données sont hébergées principalement au sein de l'Union Européenne (serveurs Google Cloud / Firebase situés en Europe de l'Ouest). Les transferts techniques vers nos sous-traitants techniques (notamment Netlify et Stripe) sont encadrés par les Clauses Contractuelles Types (CCT) de la Commission européenne et le EU-US Data Privacy Framework. Toutes les communications sont chiffrées selon le protocole TLS 1.3 et les données au repos bénéficient d'un chiffrement AES-256.</p>
       </div>
 
       <div>

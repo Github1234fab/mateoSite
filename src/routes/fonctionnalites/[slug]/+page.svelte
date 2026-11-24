@@ -205,7 +205,9 @@
   <div class="container">
     <div class="section-header">
       <span class="badge badge-beta">Avantages</span>
-      <h2 class="section-title">Pourquoi les indépendants choisissent Tito</h2>
+      <h2 class="section-title">
+        {f.slug === 'recus-fiscaux' ? 'Pourquoi les associations choisissent Tito' : 'Pourquoi les indépendants choisissent Tito'}
+      </h2>
       <p class="section-subtitle">Chaque fonctionnalité est pensée pour vous faire gagner des heures de saisie.</p>
     </div>
 

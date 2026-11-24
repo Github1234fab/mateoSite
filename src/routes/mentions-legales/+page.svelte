@@ -29,33 +29,38 @@
         Nature du service fourni
       </h3>
       <p style="font-size: 0.92rem; color: #1e3a8a; margin: 0; line-height: 1.6;">
-        Tito est un logiciel en ligne d'aide à la gestion, d'automatisation de saisie et de pré-comptabilité. En application de l'ordonnance n° 45-2138 du 19 septembre 1945, l'Éditeur n'est pas un cabinet d'expertise comptable et ne fournit aucune prestation d'expertise comptable, de révision comptable ou de certification de comptes annuels.
+        Tito est un logiciel en ligne d'aide à la gestion, d'automatisation de saisie et de pré-comptabilité. En application de l'ordonnance n° 45-2138 du 19 septembre 1945 régissant la profession d'expert-comptable, l'Éditeur n'est pas un cabinet d'expertise comptable et ne fournit aucune prestation d'expertise comptable, de tenue, de révision comptable ou de certification de comptes annuels. L'Utilisateur tient sa gestion de manière autonome sous sa seule et entière responsabilité.
       </p>
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 32px; font-size: 0.95rem;">
       <div>
         <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">1. Éditeur de la Plateforme</h2>
-        <p>Le site internet <strong>tito-gestion.com</strong> et l'application web <strong>app.tito-gestion.com</strong> sont édités par :</p>
+        <p>Conformément à l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), le site internet <strong>tito-gestion.com</strong> et l'application web <strong>app.tito-gestion.com</strong> sont édités par :</p>
         <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 6px; margin: 10px 0;">
-          <li><strong>Éditeur :</strong> Tito Gestion</li>
-          <li><strong>Contact :</strong> contact@tito-gestion.com</li>
-          <li><strong>Directeur de la publication :</strong> La Direction de la publication Tito Gestion</li>
+          <li><strong>Éditeur :</strong> Fabien Marceau, Entrepreneur Individuel (Micro-entreprise)</li>
+          <li><strong>Adresse professionnelle :</strong> 336, chemin du Julin, 69510 Thurins, France</li>
+          <li><strong>Numéro SIRET :</strong> 518 296 330 00039</li>
+          <li><strong>Directeur de la publication :</strong> Fabien Marceau</li>
+          <li><strong>E-mail de contact :</strong> <a href="mailto:contact@tito-gestion.com" style="color: var(--color-primary); font-weight: 700;">contact@tito-gestion.com</a></li>
         </ul>
       </div>
 
       <div>
         <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">2. Hébergement</h2>
-        <p>Le site et la plateforme applicative sont hébergés sur des infrastructures situées au sein de l'Union Européenne (Région Europe de l'Ouest) :</p>
-        <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 6px; margin: 10px 0;">
-          <li><strong>Hébergeur Cloud & Base de données :</strong> Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande.</li>
-          <li><strong>Infrastructure Web / CDN :</strong> Netlify Inc., 44 Montgomery St, Ste 300, San Francisco, CA 94104.</li>
+        <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 8px; margin: 10px 0;">
+          <li>
+            <strong>Hébergement de l'application web :</strong> Netlify, Inc. (512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis).
+          </li>
+          <li>
+            <strong>Hébergement des données :</strong> Google Cloud / Firebase (serveurs situés en Union Européenne), encadré par les Clauses Contractuelles Types (CCT) de la Commission européenne et le EU-US Data Privacy Framework.
+          </li>
         </ul>
       </div>
 
       <div>
         <h2 style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin-bottom: 12px;">3. Propriété Intellectuelle</h2>
-        <p>L'ensemble des marques, textes, graphismes, logos, icônes, images et algorithmes présents sur la plateforme sont la propriété exclusive de Tito Gestion ou de leurs titulaires respectifs. Toute reproduction, représentation ou distribution, totale ou partielle, sans autorisation expresse préalable est strictement interdite.</p>
+        <p>La marque verbale TITO (déposée auprès de l'INPI), l'architecture logicielle, le code source, les algorithmes d'attribution, les interfaces graphiques, les textes et les éléments visuels sont la propriété exclusive de l'Éditeur. Toute reproduction, représentation, modification ou diffusion, totale ou partielle, sans autorisation préalable écrite est strictement interdite.</p>
       </div>
 
       <div>
@@ -64,6 +69,10 @@
       </div>
     </div>
 
+    <div style="margin-top: 50px; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
+      <a href="/" style="color: var(--color-primary, #2563eb); font-weight: 700; text-decoration: none;">← Retour à l'accueil Tito</a>
+      <a href="/cgu" style="color: var(--color-primary, #2563eb); font-weight: 700; text-decoration: none;">Consulter les CGU →</a>
+    </div>
+
   </div>
 </section>
-

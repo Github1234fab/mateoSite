@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>Sécurité & Confidentialité des Données | Tito</title>
-  <meta name="description" content="Découvrez nos engagements en matière de sécurité : hébergement en France/UE, chiffrement AES-256, zéro stockage d'identifiants bancaires et portabilité 10 ans." />
+  <meta name="description" content="Découvrez nos engagements en matière de sécurité : hébergement des données en Union Européenne (RGPD), chiffrement AES-256, zéro stockage d'identifiants bancaires et remise d'archive ZIP légale." />
   <link rel="canonical" href="https://tito-gestion.com/securite-donnees" />
 </svelte:head>
 
@@ -46,9 +46,9 @@
         <div class="card-icon-box card-icon-cyan">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
         </div>
-        <h3 class="card-title">Hébergement 100 % en Union Européenne</h3>
+        <h3 class="card-title">Hébergement des données en Union Européenne</h3>
         <p class="card-desc">
-          Toutes les bases de données et infrastructures de Tito sont situées au sein de l'Union Européenne (centres de données hautement certifiés ISO 27001, SOC 2, en Europe de l'Ouest). Vos données ne quittent jamais le sol européen.
+          Les données et bases de données de Tito sont hébergées au sein de l'Union Européenne (serveurs Google Cloud / Firebase situés en Europe de l'Ouest). Les transferts techniques vers nos sous-traitants sont strictement encadrés par les règles du RGPD (Clauses Contractuelles Types / Data Privacy Framework).
         </p>
       </div>
 
@@ -66,9 +66,9 @@
         <div class="card-icon-box card-icon-cyan">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
         </div>
-        <h3 class="card-title">Portabilité légale 10 ans sans retenue</h3>
+        <h3 class="card-title">Archive ZIP complète remise à la résiliation</h3>
         <p class="card-desc">
-          Conformément au Code de commerce imposant la conservation des pièces comptables pendant 10 ans, Tito vous permet d'exporter à tout instant une archive universelle ZIP contenant tous vos registres (FEC, Livre des recettes, Grand-Livre) au format standard non propriétaire.
+          Pour votre conservation légale de 10 ans (Code de commerce), Tito remet à l'Utilisateur lors de la clôture de son abonnement une archive universelle ZIP regroupant l'ensemble de ses registres (FEC, Livre des recettes, Grand-Livre). Les données sont ensuite définitivement purgées de nos serveurs conformément à notre politique de sobriété numérique et de confidentialité (Article 8 des CGU).
         </p>
       </div>
 

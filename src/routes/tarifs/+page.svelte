@@ -106,10 +106,10 @@
             </div>
           </div>
 
-          <!-- OPTION KLARNA 3X -->
+          <!-- OPTION KLARNA 3X OU 4X -->
           <div style="background: rgba(37, 99, 235, 0.06); border: 1px dashed rgba(37, 99, 235, 0.35); border-radius: 8px; padding: 10px 14px; font-size: 0.85rem; color: #1e40af; margin-bottom: 24px; display: flex; align-items: center; gap: 8px;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-            <span><strong>Paiement en 3x ou 4x sans frais</strong> disponible via Klarna sur Stripe (~23 € / mois).</span>
+            <span><strong>Paiement en 3x ou 4x sans frais</strong> disponible via Klarna sur Stripe (~23 € en 3x ou ~17,50 € en 4x).</span>
           </div>
 
           <ul style="padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 0.92rem; color: var(--color-text-main);">
@@ -129,7 +129,7 @@
               <span style="color: #10b981; font-weight: 800; font-size: 1.1rem;">✓</span> Météo de trésorerie prédictive en temps réel
             </li>
             <li style="display: flex; align-items: center; gap: 10px;">
-              <span style="color: #10b981; font-weight: 800; font-size: 1.1rem;">✓</span> Multi-structures & portabilité légale 10 ans incluse
+              <span style="color: #10b981; font-weight: 800; font-size: 1.1rem;">✓</span> Multi-structures & archive ZIP remise à la résiliation (conservation 10 ans)
             </li>
             <li style="display: flex; align-items: center; gap: 10px;">
               <span style="color: #10b981; font-weight: 800; font-size: 1.1rem;">✓</span> Support réactif basé en France
@@ -179,7 +179,7 @@
             </tr>
             <tr style="border-bottom: 1px solid var(--color-border);">
               <td style="padding: 14px 16px; font-weight: 600;">Export légal à la résiliation</td>
-              <td style="padding: 14px 16px; color: #10b981; font-weight: 700;">Archive ZIP 10 ans en 1 clic</td>
+              <td style="padding: 14px 16px; color: #10b981; font-weight: 700;">Archive ZIP remise à la résiliation (conservation 10 ans)</td>
               <td style="padding: 14px 16px; color: #64748b;">Accès verrouillé ou payant</td>
             </tr>
             <tr>
@@ -209,14 +209,14 @@
       <div class="card" style="padding: 24px;">
         <h3 style="font-size: 1.05rem; font-weight: 800; margin: 0 0 8px 0;">Comment fonctionne le paiement en 3x ou 4x ?</h3>
         <p style="margin: 0; color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6;">
-          Sur la page sécurisée Stripe, sélectionnez simplement l'option « Klarna » dans les moyens de paiement. Votre règlement de 69,90 € sera automatiquement étalé sur 3 mensualités d'environ 23 € par mois, sans le moindre frais supplémentaire pour vous.
+          Sur la page sécurisée Stripe, sélectionnez simplement l'option « Klarna » dans les moyens de paiement. Votre règlement de 69,90 € sera automatiquement étalé selon l'option choisie (~23 € en 3 fois ou ~17,50 € en 4 fois), sans le moindre frais supplémentaire pour vous.
         </p>
       </div>
 
       <div class="card" style="padding: 24px;">
         <h3 style="font-size: 1.05rem; font-weight: 800; margin: 0 0 8px 0;">Puis-je résilier facilement ?</h3>
         <p style="margin: 0; color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6;">
-          Absolument. La résiliation s'effectue en 1 clic depuis votre espace utilisateur via le portail Stripe, sans justificatif ni préavis. Votre accès reste actif jusqu'à la fin de la période annuelle en cours et vous pouvez télécharger votre archive légale complète en ZIP.
+          Absolument. La résiliation s'effectue en 1 clic depuis votre espace utilisateur via le portail Stripe, sans justificatif ni préavis. Votre accès reste actif jusqu'à la fin de la période annuelle en cours et vous recevez votre archive légale complète en ZIP pour votre conservation légale de 10 ans (avant suppression définitive de vos données sur nos serveurs conformément aux CGU).
         </p>
       </div>
     </div>

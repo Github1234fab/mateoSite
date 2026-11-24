@@ -90,7 +90,7 @@
             <div>
               <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: #64748b; margin-bottom: 4px;">Localisation</div>
               <div style="font-weight: 700; font-size: 0.95rem; color: #0f172a;">
-                Conçu et hébergé en France 🇫🇷
+                Conçu en France 🇫🇷 • Données en UE
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ export const FONCTIONNALITES = {
     seoTitle: "Livre des Recettes Automatique & Conforme DGFiP | Tito",
     metaDescription: "Générez votre livre chronologique des recettes conforme au Code de commerce et au CGI. Export PDF et tableur en 1 clic pour micro-entreprises et indépendants.",
     problemQuote: "Noter chaque vente sur un cahier ou un fichier Excel modifiable est fastidieux, source d'oublis et contestable par le fisc lors d'un contrôle fiscal.",
-    legalNotice: "Conformité stricte à l'article R. 123-205 du Code de commerce et à l'article L123-28 du CGI : numérotation continue, horodatage, non-modifiabilité après clôture, et identification complète du client et du mode de paiement.",
+    legalNotice: "Conformité stricte aux articles L. 123-28 et R. 123-205 du Code de commerce : numérotation continue, horodatage, non-modifiabilité après clôture, et identification complète du client et du mode de paiement.",
     keySteps: [
       {
         num: "1",

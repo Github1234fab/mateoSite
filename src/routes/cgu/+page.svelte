@@ -123,9 +123,9 @@
         </p>
         <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 6px; margin: 12px 0;">
           <li><strong>Éditeur :</strong> Fabien Marceau, Entrepreneur Individuel (Micro-entreprise)</li>
-          <li><strong>Adresse professionnelle :</strong> 336, chemin du julin</li>
-          <li><strong>Numéro SIRET :</strong> 51829633000039</li>
-          <li><strong>Contact :</strong> contact@gralypho.com</li>
+          <li><strong>Adresse professionnelle :</strong> 336, chemin du Julin, 69510 Thurins, France</li>
+          <li><strong>Numéro SIRET :</strong> 518 296 330 00039</li>
+          <li><strong>Contact :</strong> contact@tito-gestion.com</li>
           <li><strong>Hébergement de l'application :</strong> Netlify, Inc. (512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis)</li>
           <li><strong>Hébergement des données :</strong> Google Cloud / Firebase (Union Européenne), encadré par les Clauses Contractuelles Types (CCT) et le EU-US Data Privacy Framework.</li>
         </ul>

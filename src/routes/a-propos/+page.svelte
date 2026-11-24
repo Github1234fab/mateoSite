@@ -72,7 +72,7 @@
         <div class="card-icon-box card-icon-cyan">3</div>
         <h3 class="card-title">Souveraineté & Portabilité totale</h3>
         <p class="card-desc">
-          Vos données vous appartiennent à 100 %. Aucune revente de données, hébergement en France et un export universel ZIP complet disponible à la seconde sans prise d'otage.
+          Vos données vous appartiennent à 100 %. Aucune revente de données, hébergement des données en Union Européenne (avec encadrement RGPD pour les sous-traitants techniques) et remise d'une archive universelle ZIP complète à la résiliation.
         </p>
       </div>
 
