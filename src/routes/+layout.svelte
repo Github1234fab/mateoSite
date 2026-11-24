@@ -46,7 +46,7 @@
           <span class="brand-name footer-brand-name">Ti<span class="brand-name-accent">t</span>o</span>
         </a>
         <p class="footer-desc">
-          La compta sans jargon, en 3 actions simples. Consacrez 98 % de votre temps à votre métier, Tito s'occupe des 2 % restants., Tito s'occupe des 2 % restants.
+          La compta sans jargon, en 3 actions simples. Consacrez 98 % de votre temps à votre métier, Tito s'occupe des 2 % restants.
         </p>
       
       </div>

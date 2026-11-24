@@ -13,7 +13,7 @@ export const SOLUTIONS = {
       },
       {
         title: "Radar des seuils de TVA & URSSAF",
-        desc: "Visualisez à l'euro près la distance qui vous sépare du seuil de base (39 100 € en services) et du seuil majoré pour ne jamais vous faire piéger."
+        desc: "Visualisez à l'euro près la distance qui vous sépare du seuil de base (37 500 € en services) et du seuil majoré (41 250 €) pour ne jamais vous faire piéger."
       },
       {
         title: "Calcul du net disponible estimé",
@@ -49,7 +49,7 @@ export const SOLUTIONS = {
       }
     ],
     features: [
-      "Ventilation automatique des comptes 705 (honoraires) et déductions",
+      "Ventilation automatique des comptes 706 (honoraires) et déductions",
       "Pré-remplissage des rubriques de la déclaration contrôlée n° 2035",
       "Suivi des appels de cotisations URSSAF, CARPIMKO, CARMF et CNBF",
       "Détection des frais professionnels déductibles (véhicule, local, matériel)"
@@ -100,8 +100,8 @@ export const SOLUTIONS = {
         desc: "Ne soyez plus jamais surpris par un prélèvement de TVA ou une facture fournisseur majeure grâce au calendrier d'anticipation."
       },
       {
-        title: "Chasse aux pièces manquantes",
-        desc: "Tito détecte automatiquement les débits bancaires qui n'ont pas encore de facture rattachée pour que votre expert-comptable soit ravi."
+        title: "Pointage des pièces justificatives",
+        desc: "Tito cible et liste automatiquement les dépenses professionnelles nécessitant une pièce justificative obligatoire (facture, reçu) pour préparer un dossier 100 % carré pour votre expert-comptable."
       }
     ],
     features: [

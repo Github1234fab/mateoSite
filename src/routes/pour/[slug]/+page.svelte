@@ -14,6 +14,30 @@
 
   /** @type {boolean} */
   let oneClickValidated = $state(false);
+
+  // Helpers pour l'élision et la grammaire française
+  function formatDeMetier(name) {
+    if (!name) return '';
+    const clean = name.trim();
+    const firstChar = clean.charAt(0).toLowerCase();
+    const voyelles = ['a', 'e', 'i', 'o', 'u', 'y', 'é', 'è', 'ê', 'h'];
+    const formatted = clean.charAt(0).toLowerCase() + clean.slice(1);
+    if (voyelles.includes(firstChar)) {
+      return `d'${formatted}`;
+    }
+    return `de ${formatted}`;
+  }
+
+  function formatPourMetier(name) {
+    if (!name) return '';
+    const clean = name.trim();
+    const lower = clean.toLowerCase();
+    const formatted = clean.charAt(0).toLowerCase() + clean.slice(1);
+    if (lower.startsWith('infirmier')) {
+      return `pour un(e) ${formatted}`;
+    }
+    return `pour un ${formatted}`;
+  }
 </script>
 
 <svelte:head>
@@ -137,7 +161,7 @@
       <span class="badge badge-pill">1 • VOS OBLIGATIONS LÉGALES</span>
       <h2 class="section-title-center">Qu'est-ce que vous devez produire, quand et pourquoi ?</h2>
       <p class="section-subtitle">
-        Sans jargon ni détour : voici les livrables exacts exigés par l'administration pour un {metier.name.toLowerCase()}, et comment Tito les automatise.
+        Sans jargon ni détour : voici les livrables exacts exigés par l'administration {formatPourMetier(metier.name)}, et comment Tito les automatise.
       </p>
     </div>
 
@@ -388,7 +412,7 @@
       <span class="trial-custom-badge">1ER RELEVÉ OFFERT (60 ÉCRITURES) • TARIF UNIQUE DÈS 5,82 €/MOIS</span>
 
       <h2 class="trial-custom-title">
-        Pilotez votre activité de {metier.name.toLowerCase()} en 2 minutes par semaine.
+        Pilotez votre activité {formatDeMetier(metier.name)} en 2 minutes par semaine.
       </h2>
 
       <p class="trial-custom-subtitle">

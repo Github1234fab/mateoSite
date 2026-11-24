@@ -726,7 +726,7 @@ export const METIERS = [
       },
       {
         q: "Puis-je choisir un exercice comptable du 1er septembre au 31 août (saison sportive) ?",
-        a: "Absolument. Dans Tito, vous calezs vos dates d'exercice sur votre saison sportive pour que votre clôture tombe juste avant votre Assemblée Générale."
+        a: "Absolument. Dans Tito, vous calez vos dates d'exercice sur votre saison sportive pour que votre clôture tombe juste avant votre Assemblée Générale."
       }
     ]
   },

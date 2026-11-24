@@ -331,7 +331,7 @@
       <span class="badge badge-beta">Écosystème Tito</span>
       <h2 class="section-pillars-title">Tito gère la compta de toutes les formes juridiques</h2>
       <p class="section-pillars-sub">
-Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SARL, holding,SCI...
+Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SARL, holding, SCI...
       </p>
     </div>
 
@@ -550,7 +550,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
               <path d="M16 16c1.5-.5 3-.5 4.5 0"/>
             </svg>
           </div>
-          <div class="trial-custom-col-title">Simplicité et tranquilité</div>
+          <div class="trial-custom-col-title">Simplicité et tranquillité</div>
           <p class="trial-custom-col-desc">
           Tito classe, range et vous explique tout ce qu'il fait.
           </p>
