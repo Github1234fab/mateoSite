@@ -412,31 +412,35 @@
   }
 }
 
+@media (max-width: 768px) {
+  .site-header .header-login-link {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .container {
     padding-left: 16px;
     padding-right: 16px;
   }
   .header-inner {
-    height: 64px;
+    height: 60px;
     gap: 8px;
   }
   .brand-link {
-    gap: 8px;
+    gap: 6px;
     flex-shrink: 0;
   }
-  .brand-logo {
-    height: 30px;
-  }
-  .brand-name {
-    font-size: 1.2rem;
-  }
-  .header-login-link {
+  .site-header .brand-logo {
     display: none;
   }
-  .btn-header-cta {
-    padding: 8px 14px;
-    font-size: 0.85rem;
+  .brand-name {
+    font-size: 1.35rem;
+  }
+  .site-header .btn-header-cta {
+    padding: 7px 13px;
+    font-size: 0.82rem;
+    white-space: nowrap;
   }
   .cta-label-full {
     display: none;
@@ -446,6 +450,10 @@
   }
   .header-actions {
     gap: 8px;
+  }
+  .mobile-menu-toggle {
+    width: 36px;
+    height: 36px;
   }
   .section {
     padding-top: 56px;
