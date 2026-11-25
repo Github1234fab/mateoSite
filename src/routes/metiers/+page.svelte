@@ -1,9 +1,10 @@
 <script>
+  /** @type {{ data: { metiers: any[] } }} */
   let { data } = $props();
   let searchQuery = $state('');
 
   let filteredMetiers = $derived(
-    data.metiers.filter(m => 
+    (data.metiers || []).filter((/** @type {any} */ m) => 
       m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       m.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (m.statusLabel && m.statusLabel.toLowerCase().includes(searchQuery.toLowerCase()))
