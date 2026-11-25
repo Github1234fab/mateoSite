@@ -776,15 +776,7 @@
     grid-template-columns: 1fr;
   }
   .hero-cta-group {
-    flex-direction: column;
-    width: 100%;
-  }
-  .hero-cta-group .btn {
-    width: 100%;
-  }
-  .hero-trust-list-blue {
-    flex-direction: column;
-    gap: 12px;
+    flex-wrap: wrap;
   }
   .cta-banner {
     padding: 40px 24px;
@@ -2643,11 +2635,18 @@
     gap: 6px 8px;
     margin-bottom: 28px;
   }
-  .hero-trust-item-blue {
+  .hero-cta-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .hero-cta-group .btn {
     width: 100%;
-    justify-content: center;
-    padding: 8px 14px;
-    font-size: 0.88rem;
+    max-width: 340px;
+  }
+  .hero-trust-item-blue {
+    padding: 7px 14px;
+    font-size: 0.85rem;
   }
   .card {
     padding: 22px 18px;
@@ -2667,10 +2666,12 @@
   }
   .pseo-action-row {
     flex-direction: column;
+    align-items: center;
     width: 100%;
   }
   .pseo-action-row .btn {
     width: 100%;
+    max-width: 340px;
   }
   .metier-kpi-strip {
     grid-template-columns: 1fr;
