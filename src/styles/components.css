@@ -68,13 +68,18 @@
 .badge {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  padding: 4px 12px;
+  padding: 5px 12px;
   border-radius: var(--radius-full);
+  max-width: 100%;
+  text-align: center;
+  line-height: 1.35;
+  white-space: normal;
 }
 
 .badge-beta {
@@ -2613,6 +2618,60 @@
 }
 
 @media (max-width: 600px) {
+  .btn {
+    white-space: normal;
+    text-align: center;
+    max-width: 100%;
+  }
+  .btn-lg {
+    padding: 12px 18px;
+    font-size: 0.95rem;
+  }
+  .badge {
+    font-size: 0.72rem;
+    padding: 5px 12px;
+  }
+  .hero-section-blue {
+    padding-top: 52px;
+    padding-bottom: 64px;
+  }
+  .hero-subtitle-blue {
+    font-size: 1rem;
+  }
+  .hero-deliverables-row {
+    font-size: 0.88rem;
+    gap: 6px 8px;
+    margin-bottom: 28px;
+  }
+  .hero-trust-item-blue {
+    width: 100%;
+    justify-content: center;
+    padding: 8px 14px;
+    font-size: 0.88rem;
+  }
+  .card {
+    padding: 22px 18px;
+  }
+  .expert-pitch-card {
+    padding: 24px 18px;
+    gap: 24px;
+  }
+  .expert-benefits-list {
+    padding: 20px 16px;
+  }
+  .expert-pitch-title {
+    font-size: 1.45rem;
+  }
+  .cta-banner {
+    padding: 32px 18px;
+  }
+  .pseo-action-row {
+    flex-direction: column;
+    width: 100%;
+  }
+  .pseo-action-row .btn {
+    width: 100%;
+  }
   .metier-kpi-strip {
     grid-template-columns: 1fr;
   }
@@ -2620,6 +2679,6 @@
     grid-template-columns: 1fr;
   }
   .single-price-card {
-    padding: 32px 24px;
+    padding: 28px 18px;
   }
 }

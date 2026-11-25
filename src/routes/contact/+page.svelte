@@ -46,7 +46,7 @@
 <section class="section" style="padding-top: 10px;">
   <div class="container" style="max-width: 960px;">
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: flex-start; margin-bottom: 60px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 40px; align-items: flex-start; margin-bottom: 60px;">
       
       <!-- COLONNE INFOS DIRECTES -->
       <div>

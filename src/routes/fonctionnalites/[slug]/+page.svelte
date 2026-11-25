@@ -157,7 +157,7 @@
             {/each}
           </div>
         {:else if f.slug === 'import-bancaire'}
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 16px;">
             {#each f.previewData as card}
               <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 18px; text-align: center;">
                 <div style="font-size: 0.82rem; font-weight: 700; text-transform: uppercase; color: #94a3b8; margin-bottom: 8px;">{card.banque}</div>

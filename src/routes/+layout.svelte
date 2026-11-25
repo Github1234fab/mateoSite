@@ -2,6 +2,11 @@
   import '../styles/main.css';
 
   let { children } = $props();
+  let mobileMenuOpen = $state(false);
+
+  function closeMobileMenu() {
+    mobileMenuOpen = false;
+  }
 </script>
 
 <svelte:head>
@@ -12,7 +17,7 @@
 <!-- HEADER GLOBAL ÉPURÉ : ZÉRO USINE À GAZ -->
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="brand-link" aria-label="Retour à l'accueil Tito">
+    <a href="/" class="brand-link" aria-label="Retour à l'accueil Tito" onclick={closeMobileMenu}>
       <img src="/logo-tito.png" alt="Logo Tito" class="brand-logo" />
       <span class="brand-name">Ti<span class="brand-name-accent">t</span>o</span>
     </a>
@@ -25,10 +30,39 @@
     </nav>
 
     <div class="header-actions">
-      <a href="https://app.tito-gestion.com" class="btn btn-ghost" target="_blank" rel="noopener">Connexion</a>
-      <a href="/#essai-gratuit" class="btn btn-primary btn-header-cta">Essayer gratuitement</a>
+      <a href="https://app.tito-gestion.com" class="btn btn-ghost header-login-link" target="_blank" rel="noopener">Connexion</a>
+      <a href="/#essai-gratuit" class="btn btn-primary btn-header-cta" onclick={closeMobileMenu}>
+        <span class="cta-label-full">Essayer gratuitement</span>
+        <span class="cta-label-short">Essayer</span>
+      </a>
+      <button
+        type="button"
+        class="mobile-menu-toggle"
+        aria-label={mobileMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+        aria-expanded={mobileMenuOpen}
+        onclick={() => (mobileMenuOpen = !mobileMenuOpen)}
+      >
+        {#if mobileMenuOpen}
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        {:else}
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        {/if}
+      </button>
     </div>
   </div>
+
+  {#if mobileMenuOpen}
+    <nav class="mobile-nav-drawer" aria-label="Navigation mobile">
+      <a href="/#les-3-gestes" class="mobile-nav-link" onclick={closeMobileMenu}>En 3 actions</a>
+      <a href="/#solutions" class="mobile-nav-link" onclick={closeMobileMenu}>Selon votre statut</a>
+      <a href="/metiers" class="mobile-nav-link" onclick={closeMobileMenu}>Obligations par métier</a>
+      <a href="/tarifs" class="mobile-nav-link" onclick={closeMobileMenu}>Tarif unique (69,90 €/an)</a>
+      <div class="mobile-nav-actions">
+        <a href="https://app.tito-gestion.com" class="btn btn-secondary" target="_blank" rel="noopener" onclick={closeMobileMenu}>Connexion</a>
+        <a href="/#essai-gratuit" class="btn btn-primary" onclick={closeMobileMenu}>Essayer gratuitement</a>
+      </div>
+    </nav>
+  {/if}
 </header>
 
 <!-- CONTENU PAGE -->

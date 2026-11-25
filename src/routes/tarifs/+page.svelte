@@ -30,7 +30,7 @@
 <section class="section" style="padding-top: 10px;">
   <div class="container" style="max-width: 960px;">
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px; align-items: stretch; margin-bottom: 60px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 32px; align-items: stretch; margin-bottom: 60px;">
       
       <!-- CARTE ESSAI GRATUIT -->
       <div class="card" style="padding: 36px; display: flex; flex-direction: column; justify-content: space-between; border: 1.5px solid var(--color-border);">
