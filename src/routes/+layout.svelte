@@ -31,7 +31,7 @@
 
     <div class="header-actions">
       <a href="https://app.tito-gestion.com" class="btn btn-ghost header-login-link" target="_blank" rel="noopener">Connexion</a>
-      <a href="/#essai-gratuit" class="btn btn-primary btn-header-cta" onclick={closeMobileMenu}>
+      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-header-cta" target="_blank" rel="noopener" onclick={closeMobileMenu}>
         <span class="cta-label-full">Essayer gratuitement</span>
         <span class="cta-label-short">Essayer</span>
       </a>
@@ -59,7 +59,7 @@
       <a href="/tarifs" class="mobile-nav-link" onclick={closeMobileMenu}>Tarif unique (69,90 €/an)</a>
       <div class="mobile-nav-actions">
         <a href="https://app.tito-gestion.com" class="btn btn-secondary" target="_blank" rel="noopener" onclick={closeMobileMenu}>Connexion</a>
-        <a href="/#essai-gratuit" class="btn btn-primary" onclick={closeMobileMenu}>Essayer gratuitement</a>
+        <a href="https://app.tito-gestion.com" class="btn btn-primary" target="_blank" rel="noopener" onclick={closeMobileMenu}>Essayer gratuitement</a>
       </div>
     </nav>
   {/if}

@@ -177,7 +177,7 @@
     </div>
 
     <div class="hero-cta-group">
-      <a href="#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
+      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Essayer Tito gratuitement</a>
       <a href="#les-3-gestes" class="btn btn-outline-white btn-lg">Découvrez Tito en 30 sec</a>
     </div>
 

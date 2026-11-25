@@ -38,7 +38,7 @@
     </p>
 
     <div class="pseo-action-row">
-      <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
+      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Essayer Tito gratuitement</a>
       <a href="#benefices" class="btn btn-secondary btn-lg">Découvrir les fonctionnalités</a>
     </div>
   </div>
@@ -129,7 +129,7 @@
         Testez gratuitement Tito sur votre premier relevé bancaire (jusqu'à 60 écritures). Sans carte bancaire et sans engagement.
       </p>
       <div class="hero-cta-group">
-        <a href="/#essai-gratuit" class="btn btn-primary btn-lg">Essayer Tito gratuitement</a>
+        <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Essayer Tito gratuitement</a>
       </div>
     </div>
   </div>
