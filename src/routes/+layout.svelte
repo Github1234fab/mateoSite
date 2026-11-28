@@ -30,8 +30,12 @@
     </nav>
 
     <div class="header-actions">
-      <a href="https://app.tito-gestion.com" class="btn btn-ghost header-login-link" target="_blank" rel="noopener">Connexion</a>
-      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-header-cta" target="_blank" rel="noopener" onclick={closeMobileMenu}>
+      <a href="https://app.tito-gestion.com/?mode=login" class="btn btn-secondary header-login-btn" target="_blank" rel="noopener" onclick={closeMobileMenu}>
+        <svg class="header-login-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+        <span class="login-label-full">Se connecter</span>
+        <span class="login-label-short">Connexion</span>
+      </a>
+      <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-primary btn-header-cta" target="_blank" rel="noopener" onclick={closeMobileMenu}>
         <span class="cta-label-full">Essayer gratuitement</span>
         <span class="cta-label-short">Essayer</span>
       </a>
@@ -58,8 +62,8 @@
       <a href="/metiers" class="mobile-nav-link" onclick={closeMobileMenu}>Obligations par métier</a>
       <a href="/tarifs" class="mobile-nav-link" onclick={closeMobileMenu}>Tarif unique (69,90 €/an)</a>
       <div class="mobile-nav-actions">
-        <a href="https://app.tito-gestion.com" class="btn btn-secondary" target="_blank" rel="noopener" onclick={closeMobileMenu}>Connexion</a>
-        <a href="https://app.tito-gestion.com" class="btn btn-primary" target="_blank" rel="noopener" onclick={closeMobileMenu}>Essayer gratuitement</a>
+        <a href="https://app.tito-gestion.com/?mode=login" class="btn btn-secondary" target="_blank" rel="noopener" onclick={closeMobileMenu}>Se connecter</a>
+        <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-primary" target="_blank" rel="noopener" onclick={closeMobileMenu}>Essayer gratuitement</a>
       </div>
     </nav>
   {/if}
@@ -109,6 +113,7 @@
       <div>
         <h3 class="footer-col-title">Tito</h3>
         <ul class="footer-links">
+          <li><a href="https://app.tito-gestion.com/?mode=login" class="footer-link footer-login-link" target="_blank" rel="noopener">Se connecter</a></li>
           <li><a href="/a-propos" class="footer-link">Notre vision</a></li>
           <li><a href="/tarifs" class="footer-link">Tarifs transparents</a></li>
           <li><a href="/securite-donnees" class="footer-link">Sécurité & Confidentialité</a></li>

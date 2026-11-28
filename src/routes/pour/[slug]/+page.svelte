@@ -420,7 +420,7 @@
       </p>
 
       <div class="trial-custom-action-wrap">
-        <a href="https://app.tito-gestion.com" class="trial-custom-cta-btn" target="_blank" rel="noopener">
+        <a href="https://app.tito-gestion.com/?mode=register" class="trial-custom-cta-btn" target="_blank" rel="noopener">
           Essayer Tito gratuitement pour {metier.name} &rarr;
         </a>
       </div>

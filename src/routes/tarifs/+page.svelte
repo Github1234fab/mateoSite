@@ -71,7 +71,7 @@
         </div>
 
         <div style="margin-top: 36px;">
-          <a href="https://app.tito-gestion.com" class="btn btn-secondary btn-lg" style="width: 100%; text-align: center;" target="_blank" rel="noopener">
+          <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-secondary btn-lg" style="width: 100%; text-align: center;" target="_blank" rel="noopener">
             Démarrer gratuitement
           </a>
         </div>

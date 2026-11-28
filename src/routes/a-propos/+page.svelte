@@ -99,7 +99,7 @@
     <div style="text-align: center; padding: 20px 0;">
       <h3 style="font-size: 1.6rem; font-weight: 900; margin-bottom: 16px;">Envie de tester la différence ?</h3>
       <p style="color: var(--color-text-muted); margin-bottom: 24px;">Rejoignez les milliers d'utilisateurs qui ont banni le stress de la gestion.</p>
-      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Commencer avec 60 écritures offertes →</a>
+      <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Commencer avec 60 écritures offertes →</a>
     </div>
   </div>
 </section>

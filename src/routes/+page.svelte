@@ -177,9 +177,16 @@
     </div>
 
     <div class="hero-cta-group">
-      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Essayer Tito gratuitement</a>
+      <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Essayer Tito gratuitement</a>
       <a href="#les-3-gestes" class="btn btn-outline-white btn-lg">Découvrez Tito en 30 sec</a>
     </div>
+
+    <p class="hero-login-prompt">
+      Déjà un compte Tito ?
+      <a href="https://app.tito-gestion.com/?mode=login" class="hero-login-link" target="_blank" rel="noopener">
+        Se connecter à mon espace &rarr;
+      </a>
+    </p>
 
     <!-- <p class="hero-guarantee-note">
       Tarif unique 8,99 €/mois • 30 jours d'essai offert • Sans carte bancaire
@@ -435,7 +442,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
           </li>
         </ul>
 
-        <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg single-price-cta" target="_blank" rel="noopener">
+        <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-primary btn-lg single-price-cta" target="_blank" rel="noopener">
           Essayer gratuitement sur un 1er relevé &rarr;
         </a>
         <div class="single-price-note">
@@ -572,7 +579,7 @@ Tito s'adapte à toutes les formes juridiques : micro-entreprise, SASU, EURL, SA
       </div>
 
       <div class="trial-custom-action-wrap">
-        <a href="https://app.tito-gestion.com" class="trial-custom-cta-btn" target="_blank" rel="noopener">
+        <a href="https://app.tito-gestion.com/?mode=register" class="trial-custom-cta-btn" target="_blank" rel="noopener">
           Créer mon compte et essayer Tito &rarr;
         </a>
       </div>

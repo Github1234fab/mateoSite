@@ -37,7 +37,7 @@
     </p>
 
     <div class="pseo-action-row">
-      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Essayer gratuitement (60 écritures offertes)</a>
+      <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Essayer gratuitement (60 écritures offertes)</a>
       <a href="#apercu" class="btn btn-secondary btn-lg">Voir un exemple en direct</a>
     </div>
   </div>
@@ -276,7 +276,7 @@
       Profitez de 60 écritures gratuites pour importer votre relevé et constater le gain de temps par vous-même.
     </p>
     <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-      <a href="https://app.tito-gestion.com" class="btn btn-primary btn-lg" style="background: #ffffff; color: #1e3a8a;" target="_blank" rel="noopener">
+      <a href="https://app.tito-gestion.com/?mode=register" class="btn btn-primary btn-lg" style="background: #ffffff; color: #1e3a8a;" target="_blank" rel="noopener">
         Démarrer l'essai gratuit →
       </a>
       <a href="/tarifs" class="btn btn-outline-white btn-lg">
